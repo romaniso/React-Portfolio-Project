@@ -2,8 +2,12 @@
   max-width: 500px;
   margin: 0 auto;
   font-size: 1.8rem;
-  line-height: 1.3rem;
+  line-height: 1.3em;
 }
+/* 
+.des__container p {
+  color: red;
+} */
 
 @media only screen and (max-width: 768px) {
   .des__container {

@@ -1,0 +1,52 @@
+.btn-div {
+  margin-top: 2rem;
+}
+
+.button {
+  font-size: 2.2rem;
+  background-color: var(--gray-1);
+  padding: 0.7em 2em;
+  border-radius: 10px;
+  display: inline-block;
+  color: var(--dark-bg);
+  transition: all 0.3s;
+  border: 2px solid var(--gray-1);
+}
+
+
+.button:hover {
+  border-radius: 0px;
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+  color: var(--white);
+  font-weight: bold;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23DCDCDD' fill-opacity='0.2'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  animation: animatedBackground 5s linear infinite alternate;
+}
+
+.button.button--outline {
+  background-color: var(--dark-bg);
+  color: var(--gray-1);
+}
+
+.button.button--outline:hover {
+  background-color: var(--gray-1);
+  border-color: (var(--highlight-color));
+  color: var(--highlight-color);
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231985A1' fill-opacity='0.2'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 1.8rem;
+  }
+}
