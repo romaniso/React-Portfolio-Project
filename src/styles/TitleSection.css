@@ -12,7 +12,27 @@
   font-size: 6rem;
   margin-top: .5rem;
   text-transform: uppercase;
+  /* transition: .5s; */
+  position: relative;
 }
+
+.title-section__title:before {
+  content: '';
+  background-color: var(--highlight-color);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.title-section__title:hover::before {
+  bottom: 0;
+  height: 100%;
+  transform: rotate(-5deg);
+} 
 
 @media only screen and (max-width: 768px) {
   .title-section__subtitle{
