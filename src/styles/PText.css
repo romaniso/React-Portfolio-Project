@@ -1,12 +1,12 @@
 .des__container {
   max-width: 500px;
   margin: 0 auto;
-  font-size: 1.8rem;
-  line-height: 1.3em;
+  font-size: 2.2rem;
+  line-height: 1.2em;
 }
 
 @media only screen and (max-width: 768px) {
   .des__container {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }

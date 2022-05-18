@@ -1,0 +1,79 @@
+.aboutSection__container {
+  padding: 10rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 4rem;
+}
+
+.aboutSection__left,
+.aboutSection__right {
+  flex: 1;
+}
+
+.aboutSection__left .title-section {
+  text-align: left;
+}
+
+.aboutSection__container .des__container {
+  margin-top: 2rem;
+  margin-left: 0;
+}
+
+.aboutSection__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.aboutSection__img {
+  filter: grayscale(100%) contrast(140%);
+  border: 2px solid var(--gray-1);
+  border-radius: 20px;
+  height: 100%;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 950px) {
+  .aboutSection__left {
+    flex: 4;
+  }
+  .aboutSection__right {
+    flex: 3;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutSection__container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .aboutSection__left,
+  .aboutSection__right {
+    width: 100%;
+  }
+  .aboutSection__right {
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+  .aboutSection__left .title-section {
+    text-align: center;
+  } 
+
+  .aboutSection__container .des__container{
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .aboutSection__buttons {
+    flex-direction: column;
+    gap: 0;
+  }
+  .aboutSection__buttons .btn-div, .aboutSection__buttons a{
+    width: 100%;
+    text-align: center;
+  }
+}

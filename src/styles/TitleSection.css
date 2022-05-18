@@ -1,0 +1,25 @@
+.title-section {
+  text-align: center;
+}
+
+.title-section__subtitle {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 3.2rem;
+}
+
+.title-section__title {
+  font-family: 'Prompt', sans-serif;
+  font-size: 6rem;
+  margin-top: .5rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .title-section__subtitle{
+    font-size: 2rem;
+  }
+
+  .title-section__title{
+    font-size: 4.5rem;
+  }
+}
