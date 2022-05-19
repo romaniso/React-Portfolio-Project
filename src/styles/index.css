@@ -47,14 +47,19 @@ button{
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600;700&family=Roboto+Flex:opsz@8..144&display=swap');
 
+:root {
+  --main-font: 'Roboto Flex', sans-serif;
+  --title-font: 'Prompt', sans-serif;
+}
+
 html{
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: var(--main-font);
   color: var(--gray-1);
 }
 *{
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: var(--main-font);
   color: var(--gray-1);
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Prompt', sans-serif;
+  font-family: var(--title-font);
 }
