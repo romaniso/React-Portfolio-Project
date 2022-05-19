@@ -6,9 +6,11 @@
   width: 100%;
   padding: 1rem 0;
   background: var(--dark-bg);
-}
+  opacity: 0.9;
+} 
 
 .navBar__list {
+  opacity: 1;
   max-width: 1200px;
   margin: 0 auto;
   width: 90%;

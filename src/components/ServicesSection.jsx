@@ -8,7 +8,7 @@ import "../styles/ServicesSection.css";
 
 export default function ServicesSection() {
   return (
-    <div className="services__container">
+    <div className="services__container container">
       <TitleSection heading="Services" subheading="What I offer" />
 
       <div className="services__items">

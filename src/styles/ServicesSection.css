@@ -21,10 +21,10 @@
 }
 
 .services__items {
-  padding: 10rem 1rem;
+  padding: 10rem 0rem;
   display: flex;
   gap: 10rem;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 5rem;
 }
 
