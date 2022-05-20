@@ -30,7 +30,12 @@
 
 .projectItem__info {
   margin-top: 1rem;
-  background-color: var(--deep-dark);
+  background-color:  var(--dark-bg);
+  background-image: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.1),
+      hsla(0, 0%, 0%, 0.4)
+    );
   padding: 1rem;
   border-radius: 12px;
   transition: .5s;
@@ -64,7 +69,12 @@
   position: absolute;
   height: 50px ;
   width: 50px ;
-  background-color: var(--deep-dark);
+  background-color:  var(--dark-bg);
+  background-image: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.1),
+      hsla(0, 0%, 0%, 0.4)
+    );
   z-index: 10;
   right: 60px ;
   left: auto ;
@@ -72,6 +82,12 @@
   transform: translateY(50%); 
   color: var(--gray-1);
   border-radius: 8px;
+  transition: .5s;
+}
+
+.projects .swiper-button-prev:hover,
+.projects .swiper-button-next:hover {
+  background-color: var(--black);
 }
 
 .projects .swiper-button-next {

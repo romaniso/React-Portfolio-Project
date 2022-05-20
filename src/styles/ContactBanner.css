@@ -1,0 +1,23 @@
+.contactBanner__container {
+  padding: 10rem 0;
+}
+
+.contactBanner__wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 5rem 0rem;
+  text-align: center;
+}
+
+.contactBanner__heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactBanner__heading {
+    font-size: 1.8rem;
+  }
+}

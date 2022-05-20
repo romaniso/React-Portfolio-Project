@@ -6,11 +6,13 @@ import TitleSection from "./TitleSection";
 import "../styles/TestimonialsSection.css";
 import testimonials from "../assets/data/testimonials";
 
+// React Transition Group is not working / to FIX
+
 export default function TestimonialsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeSlide = testimonials[activeIndex];
 
-  const handlePrev = (btn) => {
+  const handlePrev = () => {
     if (activeIndex >= testimonials.length - 1) {
       setActiveIndex(0);
     } else {
@@ -59,6 +61,7 @@ export default function TestimonialsSection() {
           <div
             className="arrow--next"
             onClick={handleNext}
+            onChange={handleNext}
             role="button"
             tabIndex={0}
             onKeyDown={handleNext}
