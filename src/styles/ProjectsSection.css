@@ -33,6 +33,11 @@
   background-color: var(--deep-dark);
   padding: 1rem;
   border-radius: 12px;
+  transition: .5s;
+}
+
+.projectItem__info:hover {
+  background-color: var(--black);
 }
 
 .projectItem__title {
