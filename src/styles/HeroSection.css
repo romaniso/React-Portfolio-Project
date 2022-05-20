@@ -43,6 +43,15 @@
 	background-color: var(--gray-1);
 }
 
+@media only screen and (max-width: 1560px) {
+  .hero__img {
+    max-width: 400px;
+  }
+  .hero {
+    min-height: auto;
+  }
+}
+
 .hero__img img {
   height: auto;
   max-width: 600px;

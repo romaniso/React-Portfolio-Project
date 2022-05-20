@@ -54,6 +54,7 @@
   font-size: 1.6rem;
   font-family: var(--main-font);
   margin-top: 1rem;
+  min-height: 100px;
 }
 
 /* Swiper Styles */
