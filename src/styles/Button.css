@@ -20,6 +20,11 @@
     );
 }
 
+.button--sm {
+  padding: 0.5em 1.5em;
+  font-size: 1.8rem;
+}
+
 
 .button:hover {
   border-radius: 0px;

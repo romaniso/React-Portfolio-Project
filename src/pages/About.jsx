@@ -6,6 +6,8 @@ import "../styles/About.css";
 import AboutInfoItem from "../components/AboutInfoItem";
 import ContactBanner from "../components/ContactBanner";
 
+import items from "../assets/data/aboutMeinfo";
+
 export default function About() {
   return (
     <div className="about__wrapper">
@@ -46,26 +48,8 @@ export default function About() {
             <h1 className="about__info__heading title-section__title">
               My Skills
             </h1>
-            <AboutInfoItem
-              title="Front End"
-              items={[
-                { title: "HTML", stars: 5 },
-                { title: "CSS", stars: 5 },
-                { title: "JavaScript", stars: 3 },
-                { title: "React", stars: 2 },
-                { title: "Git", stars: 2 },
-                { title: "SASS", stars: 2 },
-                { title: "Bootstrap", stars: 2 },
-                { title: "Webpack", stars: 1 },
-              ]}
-            />
-            <AboutInfoItem
-              title="UI/UX Design"
-              items={[
-                { title: "Figma", stars: 2 },
-                { title: "PhotoShop", stars: 2 },
-              ]}
-            />
+            <AboutInfoItem title="Front End" items={items.frontEnd} />
+            <AboutInfoItem title="UI/UX Design" items={items.uiUx} />
           </div>
 
           <div className="about__info__item">
@@ -74,44 +58,11 @@ export default function About() {
             </h1>
             <AboutInfoItem
               title="Education Background"
-              items={[
-                {
-                  title:
-                    "Maria Curie-Sklodowska University in Lublin, English Philology, BA",
-                },
-                {
-                  title: "Catholic University in Lublin, English Philology, MA",
-                },
-              ]}
+              items={items.highSchool}
             />
             <AboutInfoItem
               title="Completed Online Courses"
-              items={[
-                {
-                  title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
-                  file: "photo",
-                },
-                {
-                  title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
-                  file: "photo",
-                },
-                {
-                  title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
-                  file: "photo",
-                },
-                {
-                  title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
-                  file: "photo",
-                },
-                {
-                  title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
-                  file: "photo",
-                },
-                {
-                  title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
-                  file: "photo",
-                },
-              ]}
+              items={items.courses}
             />
           </div>
 
@@ -119,14 +70,7 @@ export default function About() {
             <h1 className="about__info__heading title-section__title">
               Experience
             </h1>
-            <AboutInfoItem
-              title="2021 - now"
-              items={[
-                {
-                  title: "Freelance Front End Developer",
-                },
-              ]}
-            />
+            <AboutInfoItem title="2021 - now" items={items.experience} />
           </div>
         </div>
       </div>

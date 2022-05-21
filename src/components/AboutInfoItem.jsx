@@ -6,9 +6,9 @@ import { AiFillStar } from "react-icons/ai";
 export default function AboutInfoItem({
   title = "This is title",
   items = [
-    { title: "HTML", stars: null, file: null },
-    { title: "CSS", stars: null, file: null },
-    { title: "JS", stars: null, file: null },
+    { title: "HTML", stars: null, download: null },
+    { title: "CSS", stars: null, download: null },
+    { title: "JS", stars: null, download: null },
   ],
 }) {
   const createStars = (stars) => {
@@ -34,8 +34,12 @@ export default function AboutInfoItem({
               ) : null}
             </>
             <>
-              {item.file ? (
-                <Button className="item__file" btnText="dowload certificate" />
+              {item.download ? (
+                <Button
+                  className="item__file"
+                  btnText="dowload certificate"
+                  download={item.download}
+                />
               ) : null}
             </>
           </div>
