@@ -148,9 +148,7 @@
 .map__card svg {
   width: 30px;
 }
-.map__card path {
-  color: rgb(255, 71, 71);
-}
+
 .map__link {
   display: block;
   font-size: 1.6rem;
