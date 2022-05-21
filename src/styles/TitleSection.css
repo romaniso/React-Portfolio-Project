@@ -14,13 +14,8 @@
   margin-top: .5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  /* transition: .5s; */
   position: relative;
 }
-
-/* .title-section__title:hover {
-  color: var(--dark-bg);
-} */
 
 .title-section__title:before {
   content: '';
@@ -37,7 +32,6 @@
 .title-section__title:hover::before {
   bottom: 0;
   height: 100%;
-  /* transform: rotate(-5deg); */
 } 
 
 @media only screen and (max-width: 768px) {

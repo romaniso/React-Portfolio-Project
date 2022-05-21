@@ -1,25 +1,53 @@
-import AboutImg from "../images/about-2.jpg";
+import HTMLbyMosh from "./certificates/the-ultimate-html-course-psd-to-html.pdf";
+import JsPart1byMosh from "./certificates/certificate-of-completion-for-javascript-basics.pdf";
+import JsPart2byMosh from "./certificates/certificate-of-completion-for-object-oriented-programming-in-javascript.pdf";
+import JsSamuraj from "./certificates/UC-1f9b59f0-2759-4f86-9baa-c0e7ec82f161.pdf";
 
 const items = {
   courses: [
     {
       title: "The Ultimate HTML5 & CSS3 Series by Code with Mosh",
-      download: AboutImg,
+      download: HTMLbyMosh,
     },
     {
-      title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
+      title:
+        "The Ultimate JavaScript Mastery Series - Part 1 by Code with Mosh",
+      download: JsPart1byMosh,
     },
     {
-      title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
+      title:
+        "The Ultimate JavaScript Mastery Series - Part 2 by Code with Mosh",
+      download: JsPart2byMosh,
     },
     {
-      title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
+      title: "Mastering React by Code with Mosht",
+      download: JsSamuraj,
     },
     {
-      title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
+      title: "The Ultimate Git Course by Code with Mosh",
+      download: JsSamuraj,
     },
     {
-      title: "Code with Mosh - The Ultimate HTML5 & CSS Series",
+      title: "Programowanie w JavaScript by Samuraj Programowania",
+      download: JsSamuraj,
+    },
+    {
+      title: "React od Podstaw by Samuraj Programowania",
+      download: JsSamuraj,
+    },
+    {
+      title:
+        "Programowanie obiektowe w JavaScript - opanuj tworząc gry! by Samuraj Programowania",
+      download: JsSamuraj,
+    },
+    {
+      title:
+        "Zaawansowane projekty w CSS i JavaScript by Samuraj Programowania",
+      download: JsSamuraj,
+    },
+    {
+      title: "Wprowadzenie do Git i GitHub by Samuraj Programowania",
+      download: JsSamuraj,
     },
   ],
   frontEnd: [

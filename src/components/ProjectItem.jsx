@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import projects from "../assets/data/projects";
 import FitnessImg from "../assets/images/projects/fitness.png";
 
 export default function ProjectItem({
