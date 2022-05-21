@@ -15,19 +15,16 @@
   width: 100%;
   font-size: 2rem;
   padding: .8rem;
-  color: var(--black);
+  color: var(--highlight-color);
   border: none;
   border-radius: 6px;
-  transition: .5s box-shadow;
+  transition: .5s;
   outline: none;
-  background-image: linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.1),
-      hsla(0, 0%, 0%, 0.4));
 }
 
 .projects__searchBar input:focus {
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 3px 3px rgba(15, 118, 179, 0.199);
+  background-color: var(--black);
 }
 
 .projects__searchBar .searchIcon {
@@ -38,7 +35,7 @@
 
 /* This way I can attach icons and style them */
 .projects__searchBar .searchIcon path {
-  color: var(--deep-dark);
+  color: var(--highlight-color);
 }
 
 @media only screen and (max-width: 768px) {

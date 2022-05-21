@@ -48,6 +48,11 @@
 
 .col__li a {
   font-size: 1.8rem;
+  transition: .5s color;
+}
+
+.col__li a:hover {
+  color: var(--white);
 }
 
 .copyright {

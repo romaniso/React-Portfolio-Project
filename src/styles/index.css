@@ -34,7 +34,8 @@ img, svg{
   object-fit: cover;
 }
 button{
-  outline: none
+  outline: none;
+  cursor: pointer;
 }
 .container {
   max-width: 1200px;

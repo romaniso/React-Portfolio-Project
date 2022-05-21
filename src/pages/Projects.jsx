@@ -37,6 +37,7 @@ export default function Projects() {
         <div className="projects__searchBar">
           <form>
             <input
+              className="card"
               type="text"
               value={searchText}
               onChange={handleChange}

@@ -84,9 +84,9 @@
   .about__wrapper {
     padding: 10rem 0;
   }
-
   .about .right img {
     filter: grayscale(70%);
+    
   }
   .top-section {
     flex-direction: column;
