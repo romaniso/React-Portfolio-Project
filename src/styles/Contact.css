@@ -84,6 +84,13 @@
   display: inline-block;
 }
 
+.form__result {
+  transition: .5s;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: var(--highlight-color);
+}
+
 
 .contactSection__wrapper .left {
   width: 100%;

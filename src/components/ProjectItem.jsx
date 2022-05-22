@@ -18,11 +18,11 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__des">{des}</p>
-        {link && (
+        {link ? (
           <a className="projectItem__btn" href={link}>
             open project
           </a>
-        )}
+        ) : null}
       </div>
     </div>
   );
