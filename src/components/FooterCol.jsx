@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ProjectItem from "./ProjectItem";
 
 export default function FooterCol({
   heading = "col heading",
