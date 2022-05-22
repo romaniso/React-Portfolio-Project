@@ -13,7 +13,8 @@
   flex: 3;
 }
 .about .right {
-  flex: 2
+  flex: 2;
+  position: relative;
 }
 
 .about__subheading {
@@ -61,8 +62,12 @@
 
 .about .right img{
   border: 2px solid var(--gray-1);
-  filter: grayscale(30%);
+  filter: brightness(120%);
+  /* position: relative; */
   border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .about__info__items {
@@ -83,10 +88,6 @@
 @media only screen and (max-width: 768px) {
   .about__wrapper {
     padding: 10rem 0;
-  }
-  .about .right img {
-    filter: grayscale(70%);
-    
   }
   .top-section {
     flex-direction: column;
