@@ -23,6 +23,7 @@ const projects = [
     name: "Roman's Code Portfolio ",
     des: "This is my React Portfolio which is based on React technology featuring a simple CSS and some other external libraries such as React Icons, React Router, Swiper, Uuidd",
     img: RomanCodeImg,
+    link: "https://codewithroman.netlify.app/",
   },
   {
     id: uuidv4(),
@@ -35,6 +36,7 @@ const projects = [
     name: "Roman's Code Portfolio ",
     des: "This is my React Portfolio which is based on React technology featuring a simple CSS and some other external libraries such as React Icons, React Router, Swiper, Uuidd",
     img: RomanCodeImg,
+    link: "https://codewithroman.netlify.app/",
   },
   {
     id: uuidv4(),

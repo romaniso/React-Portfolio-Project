@@ -6,6 +6,7 @@ export default function ProjectItem({
   img = FitnessImg,
   title = "Project Name",
   des = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,mollitia facilis sit nesciunt veritatis adipisci similique numquamnemo error possimus optio atque sequi voluptas quod recusandae ullamiusto illo debitis!",
+  link,
 }) {
   return (
     <div className="projectItem">
@@ -17,6 +18,11 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__des">{des}</p>
+        {link && (
+          <a className="projectItem__btn" href={link}>
+            open project
+          </a>
+        )}
       </div>
     </div>
   );

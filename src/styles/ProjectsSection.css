@@ -57,6 +57,14 @@
   min-height: 100px;
 }
 
+.projectItem__btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  margin: 2rem 0;
+  color: var(--hihglight-color);
+}
+
 /* Swiper Styles */
 /* try to handle this !important property */
 
