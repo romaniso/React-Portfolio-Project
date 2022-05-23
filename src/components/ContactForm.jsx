@@ -10,24 +10,37 @@ const Result = () => {
 };
 
 const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    user_email: "",
+    user_name: "",
+    user_message: "",
+  });
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.id]: e.target.value });
   const [result, showResult] = useState(false);
-  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(formData);
 
     emailjs
       .sendForm(
-        "service_r6r1q4l",
-        "template_ddsxtrm",
-        form.current,
-        "gzuG-8n8L9RcvpbJh"
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.YOUR_TEMPLATE_ID,
+        formData,
+        process.env.YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
+          setFormData({
+            user_email: "",
+            user_name: "",
+            user_message: "",
+          });
           console.log(result.text);
         },
         (error) => {
+          // place where error must appear
           console.log(error.text);
         }
       );
@@ -41,12 +54,14 @@ const ContactForm = () => {
 
   return (
     <div className="form__wrapper">
-      <form className="form" ref={form} onSubmit={sendEmail}>
+      <form className="form">
         <div className="form-group">
           <label htmlFor="user_name">Name</label>
           <input
             type="text"
             name="user_name"
+            value={formData.user_name}
+            onChange={handleChange}
             className="card"
             id="user_name"
             required
@@ -55,6 +70,8 @@ const ContactForm = () => {
         <div className="form-group">
           <label htmlFor="user_email">Email</label>
           <input
+            onChange={handleChange}
+            value={formData.user_email}
             type="email"
             name="user_email"
             className="card"
@@ -65,6 +82,8 @@ const ContactForm = () => {
         <div className="form-group">
           <label htmlFor="user_message">Message</label>
           <textarea
+            onChange={handleChange}
+            value={formData.user_message}
             name="message"
             className="card"
             id="user_message"
@@ -76,6 +95,7 @@ const ContactForm = () => {
           className="form__button button"
           type="submit"
           value="Send me a message"
+          onClick={(e) => sendEmail(e)}
         />
       </form>
       <div className="row">{result ? <Result /> : null}</div>
