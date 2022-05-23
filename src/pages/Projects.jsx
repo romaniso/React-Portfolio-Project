@@ -53,7 +53,7 @@ export default function Projects() {
               img={item.img}
               title={item.name}
               des={item.des}
-              item={item.link}
+              links={item.links}
             />
           ))}
         </div>

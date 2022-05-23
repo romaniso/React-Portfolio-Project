@@ -57,12 +57,39 @@
   min-height: 100px;
 }
 
+.projectItem__links {
+  display: flex;
+  justify-content: space-around;
+}
+
 .projectItem__btn {
+  text-align: center;
+  border: 2px solid var(--gray-1);
+  padding: 1rem 2rem;
+  
   display: inline-block;
   font-size: 1.8rem;
-  text-decoration: underline;
+  text-transform: capitalize;
   margin: 2rem 0;
   color: var(--hihglight-color);
+  transition: .5s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.projectItem__btn:first-of-type {
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.projectItem__btn:nth-of-type(2) {
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.projectItem__btn:hover {
+  color: var(--dark-bg);
+  background-color: var(--gray-1);
 }
 
 /* Swiper Styles */

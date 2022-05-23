@@ -23,13 +23,20 @@ const projects = [
     name: "Roman's Code Portfolio ",
     des: "This is my React Portfolio which is based on React technology featuring a simple CSS and some other external libraries such as React Icons, React Router, Swiper, Uuidd",
     img: RomanCodeImg,
-    link: "https://codewithroman.netlify.app/",
+    links: {
+      live: "https://codewithroman.netlify.app/",
+      gitHub: "https://github.com/romaniso/React-Portfolio-Project",
+    },
   },
   {
     id: uuidv4(),
     name: "Kontakt E-Commerce ",
     des: "A web store which offers diverse range of products from fishing rods to electricity equipment. It is developed using JavaScript, CSS 3, HTML 5 for front end, and FireBase and Amazon AWS for back end",
     img: KontaktImg,
+    links: {
+      live: "https://vkontakti-novik.herokuapp.com/",
+      gitHub: "https://github.com/romaniso/vkontakti-novik",
+    },
   },
   {
     id: uuidv4(),
