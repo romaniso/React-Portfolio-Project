@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.hero__container {
+  margin-top: 2rem;
+}
+
 .hero .container {
   padding: 2rem 1rem;
 }
@@ -111,9 +115,17 @@
   font-size: 2.2rem;
 }
 
-.hero__socials-text svg:hover, .hero__scrollDown svg:hover {
+/* .hero__socials-text svg:hover, .hero__scrollDown svg:hover {
   transition: .5s;
   width: 2.5rem;
+} */
+
+.hero__socials-text path {
+  transition: .5s;
+}
+
+.hero__socials-text li:hover path {
+  color: var(--highlight-color);
 }
 
 @media only screen and (max-width: 768px){

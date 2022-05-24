@@ -59,7 +59,7 @@
 
 .projectItem__links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .projectItem__btn {
@@ -68,9 +68,9 @@
   padding: 1rem 2rem;
   
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
-  margin: 2rem 0;
+  margin: 2rem 0rem;
   color: var(--hihglight-color);
   transition: .5s;
   cursor: pointer;
@@ -78,18 +78,32 @@
 }
 
 .projectItem__btn:first-of-type {
+  border-right: none;
+  margin-left: 3.5rem;
   border-bottom-left-radius: 12px;
   border-top-left-radius: 12px;
 }
 
 .projectItem__btn:nth-of-type(2) {
+  margin-right: 3.5rem;
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 .projectItem__btn:hover {
-  color: var(--dark-bg);
-  background-color: var(--gray-1);
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+  color: var(--white);
+  font-weight: bold;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23DCDCDD' fill-opacity='0.2'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  animation: animatedBackground 5s linear infinite alternate;
+}
+
+.projectItem__btn:nth-of-type(2):hover {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--highlight-color);
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231985A1' fill-opacity='0.2'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Swiper Styles */

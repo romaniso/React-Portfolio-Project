@@ -9,7 +9,7 @@ import "../styles/HeroSection.css";
 export default function HeroSection() {
   return (
     <div className="hero">
-      <div className="container">
+      <div className="container hero__container">
         <h1 className="hero__heading">
           <span>Hello There!</span>
           <span className="hero__name">I'm Roman</span>
