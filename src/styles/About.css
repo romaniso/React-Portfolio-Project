@@ -115,6 +115,8 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .aboutInfo__item .title {
