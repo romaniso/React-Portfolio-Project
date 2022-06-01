@@ -2,7 +2,8 @@
 
 A React Portfolio webpage developed by ***Roman Isopenko***
 
-> Someone said bla-bla-bla
+> Action is the foundational key to all success.
+**Picasso**
 
 **Code with Roman** is developed on several external libraries such as:
 
@@ -15,3 +16,8 @@ A React Portfolio webpage developed by ***Roman Isopenko***
 - SwiperJS
 - Uuid
 - React Transition Group
+
+**Here are the links to my portfolio:**
+
+You can check it out live - **<https://codewithroman.netlify.app/>**
+or look into the code here on GitHub - **<https://github.com/romaniso/React-Portfolio-Project>**
