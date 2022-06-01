@@ -1,6 +1,6 @@
 # Code with Roman ![This is my logo!](/src/assets/images/logo-dark.png)
 
-**[Code with Roman](https://codewithroman.netlify.app)** is a React based portfolio of a front web developer ***Roman Isopenko***. You can browse my projects here as well as check out some info about my background. This webpage can provide you the information about my front end dev skills. The project is developed by creating several React components, mainly functional, using React useState hooks for transfering info from a components to other components. For styling, I used plain CSS, but for future updates, styled components external library is going to be used.
+**[Code with Roman](https://codewithroman.netlify.app)** is a React based portfolio of a front web developer ***Roman Isopenko***. You can browse my projects here as well as check out some info about my background. This webpage can provide you the information about my front end dev skills. The project is developed by creating several React components, mainly functional, using several React hooks such as useState for transfering info from a component to other components. For styling, I used plain CSS, but for future updates, styled components external library is going to be used.
 
 ![This is my portfolio!](/src/assets/images/projects/roman's-code.png)
 
@@ -20,7 +20,7 @@ This project is based on several external libraries that have provided some addi
 - React Transition Group
 - EmailJS
 
-![My dependencies list](/src/assets/images/dependencies-img.png)
+![My dependencies list](/src/assets/images/readme/dependencies-img.png)
 
 ---
 
@@ -53,12 +53,12 @@ To keep all my projects in a single place I needed some data file, so I decided 
 ---
 ### React Transition Group
 
-Developing testimonials section, I came up with the idea to animate it somehow and to make it interactive for a user. I discovered another effective and plain external library **React Transition Group** that allowed me to animate the cards with testimonials and switch them with an animation.
+Developing testimonials section, I came up with the idea to animate it somehow and to make it interactive with a user. I discovered another effective and plain external library **React Transition Group** that allowed me to animate the cards with testimonials and switch them with an animation.
 
 ---
 ### EmailJS
 
-When I was designing the contact page, I thought about a form section which would allow a user to send me a message without leaving a page. Due to the fact that I had been learning front-end thechnologies so far, and back-end can be considered an a slightly uncharted territory for me, I decided to use a service which would allow to send a message from a user side. So, I used EmailJS:
+When I was designing the contact page, I thought about a form section which would allow a user to send me a message without leaving a page. Due to the fact that I had been learning front-end thechnologies so far, and back-end can be considered as a slightly uncharted territory for me, I decided to use a service which would allow to send a message from a user side. So, I used EmailJS:
 
 ![The example of using EmailJS in my project](/src/assets/images/readme/emailjs.png)
 
