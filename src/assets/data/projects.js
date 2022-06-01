@@ -1,6 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
 import KontaktImg from "../images/projects/kontakt.png";
-import FitnessImg from "../images/projects/fitness.png";
 import RomanCodeImg from "../images/projects/roman's-code.png";
 import IRIvideo from "../images/projects/iri-video.png";
 // There will be img imports
