@@ -30,9 +30,9 @@
 }
 
 .aboutSection__img {
-  filter: grayscale(100%) contrast(140%);
-  border: 2px solid var(--gray-1);
-  border-radius: 20px;
+  filter: grayscale(70%) contrast(140%);
+  /* border: 2px solid var(--gray-1); */
+  /* border-radius: 20px; */
   height: 100%;
   max-width: 500px;
 }

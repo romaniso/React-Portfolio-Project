@@ -3,7 +3,7 @@ import Button from "./Button";
 import PText from "./PText";
 import TitleSection from "./TitleSection";
 import "../styles/AboutSection.css";
-import AboutImg from "../assets/images/about-me.jpg";
+import AboutImg from "../assets/images/transparentMe.png";
 
 export default function AboutSection() {
   return (
