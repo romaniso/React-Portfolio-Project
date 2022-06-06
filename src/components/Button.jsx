@@ -11,12 +11,16 @@ export default function Button({
 }) {
   return (
     <div className="btn-div">
-      {download && !aboutBtn ? (
+      {download ? (
         <a
           href={download}
           download={download}
           className={
-            outline ? "button button--outline button--sm" : "button button--sm"
+            aboutBtn
+              ? "button"
+              : outline
+              ? "button button--outline button--sm"
+              : "button button--sm"
           }
         >
           {" "}
