@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "Kontakt E-Commerce ",
+    name: "Catify App ",
     des: 'Catify is a cat-lover app, which is based on a public API titled "The cat api", which allows a user to select a particular cat breed.',
     img: CatifyImg,
     links: {
