@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import KontaktImg from "../images/projects/kontakt.png";
+import CatifyImg from "../images/projects/catify.png";
 import RomanCodeImg from "../images/projects/roman's-code.png";
 import IRIvideo from "../images/projects/iri-video.png";
 // There will be img imports
@@ -18,22 +18,22 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: "Kontakt E-Commerce ",
+    des: 'Catify is a cat-lover app, which is based on a public API titled "The cat api", which allows a user to select a particular cat breed.',
+    img: CatifyImg,
+    links: {
+      live: "https://catify-api.netlify.app/",
+      gitHub: "https://github.com/romaniso/Catify/",
+    },
+  },
+  {
+    id: uuidv4(),
     name: "Roman's Code Portfolio ",
     des: "This is my React Portfolio which is based on React technology featuring a simple CSS and some other external libraries such as React Icons, React Router, Swiper, Uuidd",
     img: RomanCodeImg,
     links: {
       live: "https://codewithroman.netlify.app/",
       gitHub: "https://github.com/romaniso/React-Portfolio-Project",
-    },
-  },
-  {
-    id: uuidv4(),
-    name: "Kontakt E-Commerce ",
-    des: "A web store which offers diverse range of products from fishing rods to electricity equipment. It is developed using JavaScript, CSS 3, HTML 5 for front end, and FireBase and Amazon AWS for back end",
-    img: KontaktImg,
-    links: {
-      live: "https://vkontakti-novik.herokuapp.com/",
-      gitHub: "https://github.com/romaniso/vkontakti-novik",
     },
   },
 ];

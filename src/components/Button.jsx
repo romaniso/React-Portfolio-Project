@@ -7,10 +7,11 @@ export default function Button({
   btnText = "Test",
   outline = false,
   download = null,
+  aboutBtn,
 }) {
   return (
     <div className="btn-div">
-      {download ? (
+      {download && !aboutBtn ? (
         <a
           href={download}
           download={download}

@@ -5,6 +5,7 @@ import AboutImg from "../assets/images/about-2.jpg";
 import "../styles/About.css";
 import AboutInfoItem from "../components/AboutInfoItem";
 import ContactBanner from "../components/ContactBanner";
+import CV from "../assets/data/certificates/cv.pdf";
 
 import items from "../assets/data/aboutMeinfo";
 
@@ -37,7 +38,12 @@ export default function About() {
                 services, you are in the right place!
               </PText>
             </div>
-            <Button btnText="Download my Resume" btnLink="#" />
+            <Button
+              btnText="Download my Resume"
+              download={CV}
+              className="button"
+              aboutBtn={true}
+            />
           </div>
           <div className="right">
             <img src={AboutImg} alt="me" />

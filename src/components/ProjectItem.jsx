@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FitnessImg from "../assets/images/projects/fitness.png";
+import Portfolio from "../assets/images/projects/roman's-code.png";
 
 export default function ProjectItem({
-  img = FitnessImg,
+  img = Portfolio,
   title = "Project Name",
   des = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,mollitia facilis sit nesciunt veritatis adipisci similique numquamnemo error possimus optio atque sequi voluptas quod recusandae ullamiusto illo debitis!",
   links,
