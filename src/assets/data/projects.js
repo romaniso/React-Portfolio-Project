@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import CatifyImg from "../images/projects/catify.png";
 import RomanCodeImg from "../images/projects/roman's-code.png";
-import IRIvideoImg from "../images/projects/iri-video.png";
+import IRIvideoImg from "../images/projects/iri-video.jpg";
 import ToggleImg from "../images/projects/toggle.png";
 import FormImg from "../images/projects/payment-form.png";
 // There will be img imports
@@ -14,7 +14,7 @@ const projects = [
     des: "A webpage for a video maker which presents video projects using media galleries. It is developed using React, SASS constructed by using external library 'Styled Components'. For the media gallery I have used 'SwiperJS', for icons I have used 'React Icons Lib'.",
     img: IRIvideoImg,
     links: {
-      live: "https://iri-video-roma.netlify.app/",
+      live: "https://iri-zinchenko.com/",
       gitHub: "https://github.com/romaniso/iri_production",
     },
   },
@@ -34,7 +34,7 @@ const projects = [
     des: "This is my React Portfolio which is based on React technology featuring a simple CSS and some other external libraries such as React Icons, React Router, Swiper, Uuidd",
     img: RomanCodeImg,
     links: {
-      live: "https://codewithroman.netlify.app/",
+      live: "https://romanscode.com/",
       gitHub: "https://github.com/romaniso/React-Portfolio-Project",
     },
   },
