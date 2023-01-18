@@ -4,6 +4,7 @@ import RomanCodeImg from "../images/projects/roman's-code.png";
 import IRIvideoImg from "../images/projects/iri-video.jpg";
 import ToggleImg from "../images/projects/toggle.png";
 import FormImg from "../images/projects/payment-form.png";
+import HangmanImg from "../images/projects/hangman-thumbnail.jpg";
 // There will be img imports
 
 const projects = [
@@ -16,6 +17,16 @@ const projects = [
     links: {
       live: "https://iri-zinchenko.com/",
       gitHub: "https://github.com/romaniso/iri_production",
+    },
+  },
+  {
+    id: uuidv4(),
+    name: "Hangman web-game",
+    des: "It is a simple web game built according to object-oriented programming. It features ES6 Classes, Modules and a plain CSS .",
+    img: HangmanImg,
+    links: {
+      live: "https://hangman-webgame.netlify.app/",
+      gitHub: "https://github.com/romaniso/hangman-game",
     },
   },
   {

@@ -37,7 +37,7 @@ export default function AboutInfoItem({
               {item.download ? (
                 <Button
                   className="item__file"
-                  btnText="dowload certificate"
+                  btnText="dowload"
                   download={item.download}
                 />
               ) : null}

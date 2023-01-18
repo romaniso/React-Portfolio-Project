@@ -51,14 +51,14 @@ const items = {
     },
   ],
   frontEnd: [
-    { title: "HTML", stars: 5 },
+    { title: "HTML/PUG", stars: 5 },
     { title: "CSS", stars: 5 },
     { title: "JavaScript", stars: 3 },
-    { title: "React", stars: 2 },
-    { title: "Git", stars: 2 },
-    { title: "SASS", stars: 2 },
-    { title: "Bootstrap", stars: 2 },
-    { title: "Webpack", stars: 1 },
+    { title: "React", stars: 3 },
+    { title: "Git", stars: 3 },
+    { title: "SASS", stars: 4 },
+    { title: "Bootstrap", stars: 3 },
+    { title: "Webpack", stars: 2 },
   ],
   uiUx: [
     { title: "Figma", stars: 2 },
@@ -76,7 +76,13 @@ const items = {
   ],
   experience: [
     {
+      when: "2021 - by now",
       title: "Freelance Front End Developer",
+    },
+    {
+      title: "Junior Front End Developer",
+      organization: "IPG Health Spark Warsaw",
+      when: "2022 - by now",
     },
   ],
 };

@@ -1,6 +1,6 @@
-# Code with Roman ![This is my logo!](/src/assets/images/logo-dark.png)
+# Roman's Code ![This is my logo!](/src/assets/images/logo-dark.png)
 
-**[Code with Roman](https://romanscode.com/)** is a React based portfolio of a front web developer **_Roman Isopenko_**. You can browse my projects here as well as check out some info about my background. This webpage can provide you the information about my front end dev skills. The project is developed by creating several React components, mainly functional, using several React hooks such as useState for transfering info from a component to other components. For styling, I used plain CSS, but for future updates, styled components external library is going to be used.
+**[Roman's Code](https://romanscode.com/)** is a React based portfolio of a front web developer **_Roman Isopenko_**. You can browse my projects here as well as check out some info about my background. This webpage can provide you the information about my front end dev skills. The project is developed by creating several React components, mainly functional, using several React hooks such as useState for transfering info from a component to other components. For styling, I used plain CSS, but for future updates, styled components external library is going to be used.
 
 ![This is my portfolio!](/src/assets/images/projects/roman's-code.png)
 
@@ -11,7 +11,7 @@
 
 ## External libraries
 
-This project is based on several external libraries that have provided some additional functionality for user interface. Since the webpage is developed with React, it allows to use external sources to elaborate the technology of a project. Here is a list of libs that I was using creating my portfolio **[Code with Roman](https://romanscode.com/)** :
+This project is based on several external libraries that have provided some additional functionality for user interface. Since the webpage is developed with React, it allows to use external sources to elaborate the technology of a project. Here is a list of libs that I was using creating my portfolio **[Roman's Code](https://romanscode.com/)** :
 
 - React Router Dom
 - React Icons
