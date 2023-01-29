@@ -5,6 +5,7 @@ import IRIvideoImg from "../images/projects/iri-video.jpg";
 import ToggleImg from "../images/projects/toggle.png";
 import FormImg from "../images/projects/payment-form.png";
 import HangmanImg from "../images/projects/hangman-thumbnail.jpg";
+import MinesweeperImg from "../images/projects/minesweeper-thumbnail.jpg";
 // There will be img imports
 
 const projects = [
@@ -27,6 +28,16 @@ const projects = [
     links: {
       live: "https://hangman-webgame.netlify.app/",
       gitHub: "https://github.com/romaniso/hangman-game",
+    },
+  },
+  {
+    id: uuidv4(),
+    name: "Minesweeper",
+    des: 'It is my version of a well-known game "Minesweeper" which comes from early 2000s. It is based on object oriented programming, a plain css and ES6 with JS Classes, Modules, arrow functions, etc.',
+    img: MinesweeperImg,
+    links: {
+      live: "https://minesweeper-by-roman.netlify.app/",
+      gitHub: "https://github.com/romaniso/minesweeper",
     },
   },
   {
