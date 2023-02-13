@@ -6,6 +6,7 @@ import ToggleImg from "../images/projects/toggle.png";
 import FormImg from "../images/projects/payment-form.png";
 import HangmanImg from "../images/projects/hangman-thumbnail.jpg";
 import MinesweeperImg from "../images/projects/minesweeper-thumbnail.jpg";
+import HtmlEmailTemplateImg from "../images/projects/html-email-template.jpg";
 // There will be img imports
 
 const projects = [
@@ -28,6 +29,16 @@ const projects = [
     links: {
       live: "https://hangman-webgame.netlify.app/",
       gitHub: "https://github.com/romaniso/hangman-game",
+    },
+  },
+  {
+    id: uuidv4(),
+    name: "HTML Email Template",
+    des: "An email html template built for various mailers such as Google mail, Outlook, Yahoo, etc. Resposive in different devices and featured in dark and light modes. Images are hosted online via https://imgbb.com/",
+    img: HtmlEmailTemplateImg,
+    links: {
+      live: "https://html-email-template-iri.netlify.app/",
+      gitHub: "https://github.com/romaniso/html-email-template",
     },
   },
   {
