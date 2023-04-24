@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CgMenuMotion, CgClose } from "react-icons/cg";
+import CV from "../assets/data/certificates/cv.pdf";
+import LogoImg from "../assets/images/logo-light.png";
 
 import "../styles/NavBar.css";
+import Button from "./Button";
 
 const NavBar = () => {
   const [showNavBar, SetShowNavBar] = useState(false);
@@ -30,6 +33,9 @@ const NavBar = () => {
       >
         <CgMenuMotion />
       </div>
+      <a href="/" className="navBar__logo">
+        <img src={LogoImg} alt="" />
+      </a>
       <ul className={!showNavBar ? "navBar__list hidden" : "navBar__list"}>
         <div
           className="navBar__close"
@@ -55,6 +61,14 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+      <div className="navBar__action">
+        <Button
+          btnText="Resume"
+          download={CV}
+          className="button"
+          isInNavbar={true}
+        />
+      </div>
     </nav>
   );
 };

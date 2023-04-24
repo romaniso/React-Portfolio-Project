@@ -8,9 +8,10 @@ export default function Button({
   outline = false,
   download = null,
   aboutBtn,
+  isInNavbar = false,
 }) {
   return (
-    <div className="btn-div">
+    <>
       {download ? (
         <a
           href={download}
@@ -20,6 +21,8 @@ export default function Button({
               ? "button"
               : outline
               ? "button button--outline button--sm"
+              : isInNavbar
+              ? "button button--navbar"
               : "button button--sm"
           }
         >
@@ -34,6 +37,6 @@ export default function Button({
           {btnText}
         </Link>
       )}
-    </div>
+    </>
   );
 }
