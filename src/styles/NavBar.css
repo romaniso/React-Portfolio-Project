@@ -5,9 +5,13 @@
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: rgba(36, 36, 36, 0.648);
-  backdrop-filter: blur(40px);
   opacity: 0.9;
+  transition: background 0.3s ease 0s;
+}
+
+.navBar.scrolled {
+  background: rgba(36, 36, 36, 0.7);
+  backdrop-filter: blur(40px);
 }
 
 .navBar__list {

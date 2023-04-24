@@ -14,6 +14,11 @@ const NavBar = () => {
     { title: "Contact", to: "/contact" },
   ];
 
+  document.addEventListener("scroll", () => {
+    const navBar = document.querySelector(".navBar");
+    navBar.classList.toggle("scrolled", window.scrollY > 0);
+  });
+
   return (
     <nav className="navBar">
       <div
