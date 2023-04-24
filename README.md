@@ -76,7 +76,7 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 ## To do list
 
 - [x] navbar onscroll blur background (in future)
-- [ ] get resume button in navbar
+- [x] get resume button in navbar
 - [ ] onscroll animations
 - [ ] restyle skills section (delete ranking feature)
 - [ ] restyle projects cards
