@@ -19,8 +19,8 @@ export default function HeroSection() {
         </div>
         <div className="hero__info">
           <PText>
-            I am a beginner front end developer who loves creating and learning.
-            Stick around here and I'll show you what I can.
+            I am a frontend developer who loves creating and learning. Stick
+            around here and I'll show you what&nbsp;I&nbsp;can.
           </PText>
           <Button btnLink="/projects" btnText="Check out my works" />
         </div>

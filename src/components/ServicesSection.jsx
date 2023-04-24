@@ -24,8 +24,8 @@ export default function ServicesSection() {
         />
         <ServicesSectionItem
           icon={<BsPhone />}
-          title="Mobile App"
-          des="I also develop mobile apps. If you are looking for a user-friendly eye-catching mobile as an effective tool for your services, you are in the right place!"
+          title="Web Mobile App"
+          des="I also develop web apps which are responsive and good-looking in mobile devices. If you are looking for a user-friendly eye-catching mobile as an effective tool for your services, you are in the right place!"
         />
       </div>
     </div>

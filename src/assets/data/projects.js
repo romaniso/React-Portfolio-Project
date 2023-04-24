@@ -7,10 +7,21 @@ import FormImg from "../images/projects/payment-form.png";
 import HangmanImg from "../images/projects/hangman-thumbnail.jpg";
 import MinesweeperImg from "../images/projects/minesweeper-thumbnail.jpg";
 import HtmlEmailTemplateImg from "../images/projects/html-email-template.jpg";
+import SugarMadamImg from "../images/projects/sugar-madam.jpg";
 // There will be img imports
 
 const projects = [
   // I may add links to live address and github repos"
+  {
+    id: uuidv4(),
+    name: "Sugar Madam - waxing studio",
+    des: "A webpage for a beaty salon which presents its services and works using carousel media gallery. It is developed using plain HTML, CSS and vanilla JS. The main goal was to create a simple landing page which is highly optimized in website loading speed. For onscroll animation I have used GSAP library.",
+    img: SugarMadamImg,
+    links: {
+      live: "https://www.sugar-madam.pl/",
+      gitHub: "https://github.com/romaniso/sugar-madam",
+    },
+  },
   {
     id: uuidv4(),
     name: "IRI Video",
@@ -19,6 +30,16 @@ const projects = [
     links: {
       live: "https://iri-zinchenko.com/",
       gitHub: "https://github.com/romaniso/iri_production",
+    },
+  },
+  {
+    id: uuidv4(),
+    name: "Minesweeper",
+    des: 'It is my version of a well-known game "Minesweeper" which comes from early 2000s. It is based on object oriented programming, a plain css and ES6 with JS Classes, Modules, arrow functions, etc.',
+    img: MinesweeperImg,
+    links: {
+      live: "https://minesweeper-by-roman.netlify.app/",
+      gitHub: "https://github.com/romaniso/minesweeper",
     },
   },
   {
@@ -39,26 +60,6 @@ const projects = [
     links: {
       live: "https://html-email-template-iri.netlify.app/",
       gitHub: "https://github.com/romaniso/html-email-template",
-    },
-  },
-  {
-    id: uuidv4(),
-    name: "Minesweeper",
-    des: 'It is my version of a well-known game "Minesweeper" which comes from early 2000s. It is based on object oriented programming, a plain css and ES6 with JS Classes, Modules, arrow functions, etc.',
-    img: MinesweeperImg,
-    links: {
-      live: "https://minesweeper-by-roman.netlify.app/",
-      gitHub: "https://github.com/romaniso/minesweeper",
-    },
-  },
-  {
-    id: uuidv4(),
-    name: "Catify App",
-    des: 'Catify is a cat-lover app, which is based on a public API titled "The cat api", which allows a user to select a particular cat breed.',
-    img: CatifyImg,
-    links: {
-      live: "https://catify-api.netlify.app/",
-      gitHub: "https://github.com/romaniso/Catify/",
     },
   },
   {
