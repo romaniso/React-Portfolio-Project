@@ -39,7 +39,9 @@
   gap: 2rem;
   margin-top: 2rem;
 }
-
+.aboutSection__buttons .button {
+  margin-top: 2rem;
+}
 .aboutSection__img {
   filter: grayscale(40%) contrast(130%);
   height: 100%;
