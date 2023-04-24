@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import CatifyImg from "../images/projects/catify.png";
+//import CatifyImg from "../images/projects/catify.png";
 import RomanCodeImg from "../images/projects/roman's-code.png";
 import IRIvideoImg from "../images/projects/iri-video.jpg";
 import ToggleImg from "../images/projects/toggle.png";
