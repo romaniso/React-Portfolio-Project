@@ -72,3 +72,16 @@ When I was designing the contact page, I thought about a form section which woul
 
 You can check it out live - **<https://romanscode.com/>**
 or look into the code here on GitHub - **<https://github.com/romaniso/React-Portfolio-Project>**
+
+## To do list
+
+- [ ] navbar onscroll blur background (in future)
+- [ ] get resume button in navbar
+- [ ] onscroll animations
+- [ ] restyle skills section (delete ranking feature)
+- [ ] restyle projects cards
+- [ ] replace map image with google maps
+- [ ] remove testimonials
+- [ ] RESTYLE
+- [ ] maybe try to animate character's eyes on mouse move
+- [ ] maybe add a cartoonish burger icon

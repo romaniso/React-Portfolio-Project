@@ -5,7 +5,8 @@
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-bg);
+  background: rgba(36, 36, 36, 0.648);
+  backdrop-filter: blur(40px);
   opacity: 0.9;
 }
 
