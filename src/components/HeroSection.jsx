@@ -10,7 +10,6 @@ import gsap from "gsap";
 
 export default function HeroSection() {
   const rotatedElRef = useRef(null);
-  const pinnedElRef = useRef(null);
   useEffect(() => {
     const elRotated = rotatedElRef.current;
     gsap.fromTo(elRotated, { rotation: 0 }, { rotation: 360, duration: 1 });
