@@ -77,7 +77,7 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 
 - [x] navbar onscroll blur background (in future)
 - [x] get resume button in navbar
-- [ ] onscroll animations
+- [x] onscroll animations
 - [ ] restyle skills section (delete ranking feature)
 - [ ] restyle projects cards
 - [ ] replace map image with google maps

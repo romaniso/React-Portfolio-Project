@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import TitleSection from "./TitleSection";
 import { Swiper, SwiperSlide } from "swiper/react";
 import projects from "../assets/data/projects";
@@ -11,10 +11,35 @@ import "swiper/css/pagination";
 
 import { Navigation, Pagination } from "swiper";
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function ProjectsSection() {
+  const scrollTrigerredElRef = useRef(null);
+  useEffect(() => {
+    const el = scrollTrigerredElRef.current;
+    gsap.fromTo(
+      el,
+      { y: "+=100", opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: "easeInOut",
+        scrollTrigger: {
+          trigger: el,
+          start: "top 70%",
+          end: "center 60%",
+          toggleActions: "restart none none reverse",
+          toggleClass: "scrolled",
+        },
+      }
+    );
+  }, []);
   return (
     <>
-      <div className="projects__container container">
+      <div className="projects__container container" ref={scrollTrigerredElRef}>
         <TitleSection heading="Projects" subheading="My recent works" />
         <div className="projects">
           <Swiper
