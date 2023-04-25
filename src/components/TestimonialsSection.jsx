@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 import PText from "./PText";
 import TitleSection from "./TitleSection";
 import "../styles/TestimonialsSection.css";
 import testimonials from "../assets/data/testimonials";
+
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 // React Transition Group is not working / to FIX
 
@@ -28,13 +32,35 @@ export default function TestimonialsSection() {
     }
   };
 
+  const scrollTrigerredContentRef = useRef(null);
+
+  useEffect(() => {
+    const testimonial = scrollTrigerredContentRef.current;
+    gsap.fromTo(
+      testimonial,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 2,
+        ease: "easeInOut",
+        scrollTrigger: {
+          trigger: ".testimonials__container",
+          start: "center 80%",
+          end: "bottom 50%",
+          toggleActions: "restart reverse restart reverse",
+          toggleClass: "scrolled",
+        },
+      }
+    );
+  });
+
   return (
     <div className="testimonials__container container">
       <TitleSection
         heading="Testimonials"
         subheading="Some reviews from my clients"
       />
-      <div className="testimonial__wrapper">
+      <div className="testimonial__wrapper" ref={scrollTrigerredContentRef}>
         <SwitchTransition>
           <CSSTransition key={activeSlide.id} timeout={300} classNames="fade">
             <div className="testimonial__info">

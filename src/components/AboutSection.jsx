@@ -19,9 +19,9 @@ export default function AboutSection() {
     const photo = scrollTrigerredPhotoRef.current;
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: content,
-        start: "top 70%",
-        end: "bottom 40%",
+        trigger: ".aboutSection__container",
+        start: "top 50%",
+        end: "bottom 30%",
         toggleActions: "restart reverse play reverse",
         toggleClass: "scrolled",
       },
