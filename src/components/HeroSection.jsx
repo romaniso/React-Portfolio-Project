@@ -6,19 +6,12 @@ import { IoIosArrowDown } from "react-icons/io";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "../styles/HeroSection.css";
 
-import gsap from "gsap";
-
 export default function HeroSection() {
-  const rotatedElRef = useRef(null);
-  useEffect(() => {
-    const elRotated = rotatedElRef.current;
-    gsap.fromTo(elRotated, { rotation: 0 }, { rotation: 360, duration: 1 });
-  }, []);
   return (
     <div className="hero">
       <div className="container hero__container">
         <h1 className="hero__heading">
-          <span ref={rotatedElRef}>Hello There!</span>
+          <span>Hello There!</span>
           <span className="hero__name">I'm Roman</span>
         </h1>
         <div className="hero__img">

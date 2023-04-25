@@ -28,11 +28,11 @@ export default function AboutInfoItem({
               <PText className="item__wrapper">{item.title}</PText>
             </>
 
-            <>
+            {/*<>
               {item.stars ? (
                 <span className="item__stars">{createStars(item.stars)}</span>
               ) : null}
-            </>
+            </>*/}
             <>
               {item.download ? (
                 <Button

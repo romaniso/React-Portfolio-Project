@@ -1,11 +1,13 @@
 .footer__wrapper {
+  position: relative;
+  z-index: 2;
   padding-top: 10rem;
-  background-color:  var(--dark-bg);
+  background-color: var(--dark-bg);
   background-image: linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.1),
-      hsla(0, 0%, 0%, 0.4)
-    );
+    135deg,
+    rgba(0, 0, 0, 0.1),
+    hsla(0, 0%, 0%, 0.4)
+  );
 }
 
 .footer__container {
@@ -20,7 +22,7 @@
   flex: 2;
 }
 
-.footer__col1__logo img{
+.footer__col1__logo img {
   max-width: 40px;
   margin-right: 1rem;
   transform: translate(0, 20%);
@@ -29,7 +31,7 @@
 .footer__col2,
 .footer__col3,
 .footer__col4 {
-  flex: 1
+  flex: 1;
 }
 
 .footer__col1__title {
@@ -48,7 +50,7 @@
 
 .col__li a {
   font-size: 1.8rem;
-  transition: .5s color;
+  transition: 0.5s color;
 }
 
 .col__li a:hover {
@@ -69,7 +71,7 @@
 @media only screen and (max-width: 768px) {
   .footer__container {
     flex-direction: column;
-    gap: 0rem
+    gap: 0rem;
   }
   .footer__container div {
     margin-top: 5rem;

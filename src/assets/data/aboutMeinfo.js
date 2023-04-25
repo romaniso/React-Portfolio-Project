@@ -53,16 +53,18 @@ const items = {
   frontEnd: [
     { title: "HTML/PUG", stars: 5 },
     { title: "CSS", stars: 5 },
+    { title: "SASS/SCSS", stars: 4 },
+    { title: "Bootstrap", stars: 2 },
+    { title: "Tailwind", stars: 2 },
     { title: "JavaScript", stars: 3 },
+    { title: "TypeScript", stars: 2 },
     { title: "React", stars: 3 },
     { title: "Git", stars: 3 },
-    { title: "SASS", stars: 4 },
-    { title: "Bootstrap", stars: 3 },
     { title: "Webpack", stars: 2 },
   ],
   uiUx: [
     { title: "Figma", stars: 2 },
-    { title: "PhotoShop", stars: 2 },
+    { title: "PhotoShop", stars: 1 },
   ],
 
   highSchool: [

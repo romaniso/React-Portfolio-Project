@@ -21,9 +21,10 @@ export default function About() {
             <h2 className="about__heading">A Front End Developer</h2>
             <div className="about__info">
               <PText>
-                I am a beginner front end developer who loves creating and
-                learning. Stick around here and I'll show you what I can. A
-                passionate beginner front end developer from Lublin, Poland.
+                I am a passionate frontend developer who loves creating and
+                learning. I am located in Lublin, Poland but right now I have
+                been having my first commercial job remotely for Warsaw company.
+                Stick around here and I'll show you what I can do.
                 <br />
                 <br /> Web Dev is my hobby that allows me to use my creativity
                 and imagination. I can do some simple ui/ux for your webpage
@@ -32,18 +33,16 @@ export default function About() {
                 scratch. I will code your webpage using up-to-date web
                 technologies ensuring that your project is a high performance
                 website.
-                <br />
-                <br /> I also develop mobile apps. If you are looking for a
-                user-friendly eye-catching mobile as an effective tool for your
-                services, you are in the right place!
               </PText>
             </div>
-            <Button
-              btnText="Download my Resume"
-              download={CV}
-              className="button"
-              aboutBtn={true}
-            />
+            <div className="about__action">
+              <Button
+                btnText="Download my Resume"
+                download={CV}
+                className="button"
+                aboutBtn={true}
+              />
+            </div>
           </div>
           <div className="right">
             <img src={AboutImg} alt="me" />
