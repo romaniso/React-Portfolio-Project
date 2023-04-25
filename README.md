@@ -85,3 +85,4 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [ ] RESTYLE
 - [ ] maybe try to animate character's eyes on mouse move
 - [ ] maybe add a cartoonish burger icon
+- [ ] add a preloader
