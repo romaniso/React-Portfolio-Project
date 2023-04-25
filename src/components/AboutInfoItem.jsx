@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import PText from "./PText";
-import { AiFillStar } from "react-icons/ai";
+//import { AiFillStar } from "react-icons/ai";
 
 export default function AboutInfoItem({
   title = "This is title",
@@ -11,13 +11,13 @@ export default function AboutInfoItem({
     { title: "JS", stars: null, download: null },
   ],
 }) {
-  const createStars = (stars) => {
-    let arr = [];
-    for (let i = 0; i < stars; i++) {
-      arr.push(<AiFillStar key={i} />);
-    }
-    return arr.map((star) => star);
-  };
+  //  const createStars = (stars) => {
+  //    let arr = [];
+  //    for (let i = 0; i < stars; i++) {
+  //      arr.push(<AiFillStar key={i} />);
+  //    }
+  //    return arr.map((star) => star);
+  //  };
   return (
     <div className="aboutInfo__item">
       <h1 className="title">{title}</h1>

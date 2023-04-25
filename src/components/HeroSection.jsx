@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import HeroImg from "../assets/images/hero-black-white-img.svg";
 import Button from "./Button";
 import PText from "./PText";
