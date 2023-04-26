@@ -79,7 +79,7 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [x] get resume button in navbar
 - [x] onscroll animations
 - [ ] restyle skills section (delete ranking feature)
-- [ ] restyle projects cards
+- [x] restyle projects cards
 - [ ] replace map image with google maps
 - [ ] remove testimonials
 - [ ] RESTYLE

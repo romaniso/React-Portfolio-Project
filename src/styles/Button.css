@@ -3,7 +3,7 @@
   white-space: nowrap;
   font-size: 2.2rem;
   padding: 0.7em 2em;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   display: inline-block;
   color: var(--dark-bg);
   transition: all 0.3s;
@@ -24,7 +24,7 @@
 
 .button:hover,
 .button.button--navbar {
-  border-radius: 0px;
+  /*border-radius: 0px;*/
   background-color: var(--highlight-color);
   border-color: var(--highlight-color);
   color: var(--white);
@@ -43,7 +43,7 @@
   padding: 0.6rem 1.8rem;
   text-transform: none;
   font-weight: normal;
-  border-radius: 0.6rem;
+  /*border-radius: 0.6rem;*/
 }
 .button.button--navbar:hover {
   border-radius: 0;
