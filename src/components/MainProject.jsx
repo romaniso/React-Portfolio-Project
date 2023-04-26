@@ -16,11 +16,11 @@ export default function MainProject({
 }) {
   const scrollTrigerredElRef = useRef(null);
   useEffect(() => {
-    console.log(index % 2 === 0 ? "+=100" : "-=100");
+    const i = index;
     const el = scrollTrigerredElRef.current;
     gsap.fromTo(
       el,
-      { x: ` ${index % 2 === 0 ? "+100" : "-600"}`, opacity: 0 },
+      { x: `${i % 2 === 0 ? "+100" : "-600"}`, opacity: 0 },
       {
         x: 0,
         opacity: 1,
@@ -35,7 +35,7 @@ export default function MainProject({
         },
       }
     );
-  }, []);
+  }, [index]);
   return (
     <div className="main-project" ref={scrollTrigerredElRef}>
       <a
