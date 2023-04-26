@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Button.css";
-import { act } from "react-dom/test-utils";
 
 export default function Button({
   btnLink = "test",
