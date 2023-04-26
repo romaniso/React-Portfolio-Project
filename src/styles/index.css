@@ -16,11 +16,14 @@
   --light-gray: #dcdcdd;
   --highlight-color: #1985a1;
   --highlight-2-color: #fa8c43;
+  --highlight-text-shadow: rgba(8, 239, 255, 0.457) 0 0 5px;
+  --dark-text-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
   --background-gradient: linear-gradient(
     90deg,
     rgb(45, 45, 49) 40%,
     rgb(49, 62, 71) 100%
   );
+  --card-gradient: linear-gradient(135deg, rgb(111, 145, 158), hsl(0, 0%, 25%));
 }
 html {
   font-size: 10px;
@@ -58,12 +61,7 @@ button {
 /* Card styles */
 .card {
   background-color: var(--dark-bg);
-  background-image: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.1),
-    hsla(0, 0%, 0%, 0.4)
-  );
-  border-radius: 12px;
+  background-image: var(--card-gradient);
   transition: 0.5s;
 }
 

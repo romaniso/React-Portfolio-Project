@@ -36,7 +36,7 @@ export default function ContactBanner() {
       >
         <PText>Are you looking for a good website?</PText>
         <h3 className="contactBanner__heading">Let me know</h3>
-        <Button btnText="Contact Me" btnLink="/contact" />
+        <Button btnText="Contact Me" btnLink="/contact" active={true} />
       </div>
     </div>
   );

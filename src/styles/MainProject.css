@@ -59,29 +59,22 @@
 h3.main-project__title {
   margin-bottom: 1.6rem;
   font-size: 2.8rem;
-  text-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+  text-shadow: var(--dark-text-shadow);
 }
 p.main-project__type {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   color: var(--highlight-color);
-  text-shadow: rgba(8, 239, 255, 0.457) 0 0 5px;
+  text-shadow: var(--highlight-text-shadow);
 }
 .main-project__info {
   background-color: var(--dark-bg);
-  background-image: linear-gradient(
-    135deg,
-    rgb(111, 145, 158),
-    hsl(0, 0%, 25%)
-  );
+  background-image: var(--card-gradient);
   padding: 1.6rem 2rem;
   transition: 0.5s;
   z-index: 2;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
-}
-.main-project__info:hover {
-  box-shadow: 0 0 10px 5px rgba(23, 160, 170, 0.1);
 }
 .main-project__title {
   font-size: 2.2rem;
@@ -134,7 +127,7 @@ p.main-project__type {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   color: var(--gray-1);
-  text-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+  text-shadow: var(--dark-text-shadow);
 }
 @media only screen and (max-width: 992px) {
   .main-project {
@@ -191,7 +184,7 @@ p.main-project__type {
   .main-project__technology {
     color: var(--highlight-color);
     opacity: 1;
-    text-shadow: rgba(8, 239, 255, 0.457) 0 0 5px;
+    text-shadow: var(--highlight-text-shadow);
   }
 }
 @media only screen and (max-width: 767px) {

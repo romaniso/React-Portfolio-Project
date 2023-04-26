@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Button.css";
+import { act } from "react-dom/test-utils";
 
 export default function Button({
   btnLink = "test",
@@ -9,6 +10,7 @@ export default function Button({
   download = null,
   aboutBtn,
   isInNavbar = false,
+  active = false,
 }) {
   return (
     <>
@@ -31,7 +33,13 @@ export default function Button({
         </a>
       ) : (
         <Link
-          className={outline ? "button button--outline" : "button"}
+          className={
+            outline
+              ? "button button--outline"
+              : active
+              ? "button button--active"
+              : "button"
+          }
           to={btnLink}
         >
           {btnText}

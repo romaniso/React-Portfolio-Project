@@ -23,7 +23,8 @@
 }
 
 .button:hover,
-.button.button--navbar {
+.button.button--navbar,
+.button.button--active {
   /*border-radius: 0px;*/
   background-color: var(--highlight-color);
   border-color: var(--highlight-color);
@@ -50,7 +51,8 @@
 }
 
 .button.button--outline:hover,
-.button.button--navbar:hover {
+.button.button--navbar:hover,
+.button.button--active:hover {
   background-color: var(--white);
   border-color: (var(--highlight-color));
   color: var(--highlight-color);
