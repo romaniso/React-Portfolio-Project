@@ -27,6 +27,7 @@ const projects = [
       live: "https://www.sugar-madam.pl/",
       gitHub: "https://github.com/romaniso/sugar-madam",
     },
+    technologies: ["HTML/SCSS", "Vanilla JS", "OOP", "Gsap", "Webpack 5"],
   },
   {
     id: uuidv4(),
@@ -38,6 +39,13 @@ const projects = [
       live: "https://iri-zinchenko.com/",
       gitHub: "https://github.com/romaniso/iri_production",
     },
+    technologies: [
+      "React",
+      "Styled Components",
+      "EmailJS",
+      "SwiperJS",
+      "React Icons",
+    ],
   },
   {
     id: uuidv4(),
@@ -49,6 +57,7 @@ const projects = [
       live: "https://minesweeper-by-roman.netlify.app/",
       gitHub: "https://github.com/romaniso/minesweeper",
     },
+    technologies: ["HTML/CSS", "Vanilla JS", "OOP Principles", "ES6"],
   },
   {
     id: uuidv4(),
@@ -60,6 +69,7 @@ const projects = [
       live: "https://hangman-webgame.netlify.app/",
       gitHub: "https://github.com/romaniso/hangman-game",
     },
+    technologies: ["HTML/CSS", "Vanilla JS", "OOP Principles", "ES6"],
   },
   {
     id: uuidv4(),
@@ -71,6 +81,7 @@ const projects = [
       live: "https://funny-credit-card-payment-form.netlify.app/",
       gitHub: "https://github.com/romaniso/Credit-Card-Payment-Form.git",
     },
+    technologies: ["HTML/CSS", "Vanilla JS", "ES6"],
   },
   {
     id: uuidv4(),

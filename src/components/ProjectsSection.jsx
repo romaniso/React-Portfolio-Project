@@ -52,6 +52,7 @@ export default function ProjectsSection() {
                 gif={project.gif}
                 des={project.des}
                 links={project.links}
+                technologies={project.technologies}
               />
             );
           })}
