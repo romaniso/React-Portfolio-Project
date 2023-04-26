@@ -130,6 +130,10 @@ p.main-project__type {
   text-shadow: var(--dark-text-shadow);
 }
 @media only screen and (max-width: 992px) {
+  .main-projects {
+    margin-top: 5rem;
+    gap: 5rem;
+  }
   .main-project {
     display: block;
     position: relative;
@@ -230,7 +234,7 @@ p.main-project__type {
 }
 @media only screen and (max-width: 479px) {
   .main-project__img {
-    height: 350px;
+    height: 380px;
   }
   .main-project__heading {
     width: 100%;

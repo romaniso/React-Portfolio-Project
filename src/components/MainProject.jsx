@@ -74,7 +74,6 @@ export default function MainProject({
         </main>
         <footer className="main-project__stack">
           {technologies.map((tech, index) => {
-            console.log(tech);
             return (
               <p className="main-project__technology" key={index}>
                 {tech}

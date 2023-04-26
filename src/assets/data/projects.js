@@ -28,6 +28,7 @@ const projects = [
       gitHub: "https://github.com/romaniso/sugar-madam",
     },
     technologies: ["HTML/SCSS", "Vanilla JS", "OOP", "Gsap", "Webpack 5"],
+    type: "Landing page",
   },
   {
     id: uuidv4(),
@@ -46,6 +47,7 @@ const projects = [
       "SwiperJS",
       "React Icons",
     ],
+    type: "Landing page",
   },
   {
     id: uuidv4(),
@@ -58,6 +60,7 @@ const projects = [
       gitHub: "https://github.com/romaniso/minesweeper",
     },
     technologies: ["HTML/CSS", "Vanilla JS", "OOP Principles", "ES6"],
+    type: "Online Game",
   },
   {
     id: uuidv4(),
@@ -70,6 +73,7 @@ const projects = [
       gitHub: "https://github.com/romaniso/hangman-game",
     },
     technologies: ["HTML/CSS", "Vanilla JS", "OOP Principles", "ES6"],
+    type: "Online Game",
   },
   {
     id: uuidv4(),
@@ -82,6 +86,7 @@ const projects = [
       gitHub: "https://github.com/romaniso/Credit-Card-Payment-Form.git",
     },
     technologies: ["HTML/CSS", "Vanilla JS", "ES6"],
+    type: "Frontend Component",
   },
   {
     id: uuidv4(),

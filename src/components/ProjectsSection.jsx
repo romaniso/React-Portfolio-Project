@@ -54,6 +54,7 @@ export default function ProjectsSection() {
                 links={project.links}
                 technologies={project.technologies}
                 index={index}
+                type={project.type}
               />
             );
           })}

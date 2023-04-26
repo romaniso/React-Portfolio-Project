@@ -81,9 +81,8 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [ ] restyle skills section (delete ranking feature)
 - [x] restyle projects cards
 - [ ] replace map image with google maps
-- [ ] remove testimonials
 - [ ] RESTYLE
 - [ ] maybe try to animate character's eyes on mouse move
 - [ ] maybe add a cartoonish burger icon
-- [ ] add a preloader
+- [x] add a preloader
 - [ ] add an onhover popup for main project image which follows a mouse
