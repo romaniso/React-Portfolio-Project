@@ -53,6 +53,7 @@ export default function ProjectsSection() {
                 des={project.des}
                 links={project.links}
                 technologies={project.technologies}
+                index={index}
               />
             );
           })}

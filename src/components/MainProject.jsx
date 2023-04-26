@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import Portfolio from "../assets/images/projects/roman's-code.png";
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function MainProject({
+  index = null,
   gif = Portfolio,
   title = "Project Name",
   type = "Landing page",
@@ -9,8 +14,30 @@ export default function MainProject({
   links,
   technologies = ["React", "SCSS", "GSAP", "Tailwind", "Next.js"],
 }) {
+  const scrollTrigerredElRef = useRef(null);
+  useEffect(() => {
+    console.log(index % 2 === 0 ? "+=100" : "-=100");
+    const el = scrollTrigerredElRef.current;
+    gsap.fromTo(
+      el,
+      { x: ` ${index % 2 === 0 ? "+100" : "-600"}`, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: "easeInOut",
+        scrollTrigger: {
+          trigger: el,
+          start: "top 70%",
+          end: "bottom 60%",
+          toggleActions: "restart none none reverse",
+          toggleClass: "scrolled",
+        },
+      }
+    );
+  }, []);
   return (
-    <div className="main-project">
+    <div className="main-project" ref={scrollTrigerredElRef}>
       <a
         href={links.live}
         target="_blank"
