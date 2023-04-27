@@ -80,7 +80,7 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [x] onscroll animations
 - [ ] restyle skills section (delete ranking feature)
 - [x] restyle projects cards
-- [ ] replace map image with google maps
+- [x] replace map image with google maps
 - [ ] RESTYLE
 - [ ] maybe try to animate character's eyes on mouse move
 - [ ] maybe add a cartoonish burger icon
