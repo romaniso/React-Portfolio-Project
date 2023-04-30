@@ -105,7 +105,7 @@ h6 {
 ::-webkit-scrollbar-track {
   background: var(--dark-bg);
 
-  border-radius: 100vw;
+  /*border-radius: 100vw;*/
   margin-block: 0.5em;
 }
 ::-webkit-scrollbar-thumb {
@@ -116,7 +116,7 @@ h6 {
     hsla(0, 0%, 0%, 0.397)
   );
   border: 0.25em solid var(--gray-1);
-  border-radius: 100vw;
+  /*border-radius: 100vw;*/
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--highlight-color);
