@@ -127,7 +127,8 @@
     border-left: 2px solid var(--highlight-color);
     text-align: left;
   }
-  .item-timeline .content {
+  .item-timeline .item-timeline__content.content {
+    padding-top: 0;
     padding-bottom: 8rem;
   }
   .item-timeline .item-timeline__date.date {
@@ -141,6 +142,7 @@
   }
   .item-timeline:nth-child(odd) .date::after {
     left: -1.1rem;
+    transform: translateY(-100%);
   }
   .content__job {
     margin-top: 0;
@@ -167,7 +169,7 @@
   }
   .content-description {
     font-size: 1.4rem;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 }
 @media only screen and (max-width: 479px) {

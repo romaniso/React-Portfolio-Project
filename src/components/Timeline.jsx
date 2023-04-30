@@ -1,16 +1,60 @@
+import { useRef, useEffect } from "react";
 import "../styles/Timeline.css";
 import Decor from "../assets/images/timeline-decor.png";
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default function Timeline() {
+  const scrollTrigerredItem1Ref = useRef(null);
+  const scrollTrigerredItem2Ref = useRef(null);
+  useEffect(() => {
+    const item1 = scrollTrigerredItem1Ref.current;
+    const item2 = scrollTrigerredItem2Ref.current;
+    gsap.fromTo(
+      item1,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1.5,
+        ease: "easeInOut",
+        scrollTrigger: {
+          trigger: item1,
+          start: "center 80%",
+          end: "bottom 0%",
+          toggleActions: "restart reverse play reverse",
+        },
+      }
+    );
+    gsap.fromTo(
+      item2,
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1.5,
+        ease: "easeInOut",
+        scrollTrigger: {
+          trigger: item2,
+          start: "center 80%",
+          end: "bottom 0%",
+          toggleActions: "restart reverse play reverse",
+        },
+      }
+    );
+  }, []);
   return (
     <section className="timeline">
-      <article className="timeline-item item-timeline">
+      <article
+        className="timeline-item item-timeline"
+        ref={scrollTrigerredItem1Ref}
+      >
         <div className="item-timeline__date date">
           <img className="date__decor" src={Decor} alt="Decor" />
           <div className="date__badge">07.2022 – until now</div>
         </div>
         <div className="item-timeline__content content">
-          <h3 className="content__job">Junior Front End Developer</h3>
+          <h3 className="content__job">Junior Frontend Developer</h3>
           <p className="content__company">IPG Health Spark Warsaw</p>
           <section className="content__description content-description">
             <ul className="content-description__list">
@@ -23,8 +67,8 @@ export default function Timeline() {
               </li>
               <li className="content-description__item">
                 Creating websites, coding <strong> html email templates</strong>{" "}
-                and <strong>e-detailing presentations</strong> using the
-                aforementioned tools.
+                and <strong>e&nbsp;-&nbsp;detailing presentations</strong> using
+                the aforementioned tools.
               </li>
               <li className="content-description__item">
                 Building an e-detailing presentation generator using
@@ -36,19 +80,22 @@ export default function Timeline() {
               </li>
               <li className="content-description__item">
                 Managing the Sanofi website using the
-                <strong> Sanofi Magnolia CMS</strong>.
+                <strong> Sanofi Magnolia&nbsp;CMS</strong>.
               </li>
             </ul>
           </section>
         </div>
       </article>
-      <article className="timeline-item item-timeline">
+      <article
+        className="timeline-item item-timeline"
+        ref={scrollTrigerredItem2Ref}
+      >
         <div className="item-timeline__date date">
           <img className="date__decor" src={Decor} alt="Decor" />
           <div className="date__badge">01.2021 – until now</div>
         </div>
         <div className="item-timeline__content content">
-          <h3 className="content__job">Freelance Front End Developer</h3>
+          <h3 className="content__job">Freelance Frontend Developer</h3>
           <p className="content__company">Freelancer</p>
           <section className="content__description content-description">
             <ul className="content-description__list">
