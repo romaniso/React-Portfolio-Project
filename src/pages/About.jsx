@@ -8,6 +8,7 @@ import ContactBanner from "../components/ContactBanner";
 import CV from "../assets/data/certificates/cv.pdf";
 
 import items from "../assets/data/aboutMeinfo";
+import Timeline from "../components/Timeline";
 
 export default function About() {
   return (
@@ -48,6 +49,7 @@ export default function About() {
             <img src={AboutImg} alt="me" />
           </div>
         </div>
+        <Timeline />
         <div className="about__info__items">
           <div className="about__info__item">
             <h1 className="about__info__heading title-section__title">
@@ -55,27 +57,6 @@ export default function About() {
             </h1>
             <AboutInfoItem title="Front End" items={items.frontEnd} />
             <AboutInfoItem title="UI/UX Design" items={items.uiUx} />
-          </div>
-
-          <div className="about__info__item">
-            <h1 className="about__info__heading title-section__title">
-              Education
-            </h1>
-            <AboutInfoItem
-              title="Education Background"
-              items={items.highSchool}
-            />
-            <AboutInfoItem
-              title="Completed Online Courses"
-              items={items.courses}
-            />
-          </div>
-
-          <div className="about__info__item">
-            <h1 className="about__info__heading title-section__title">
-              Experience
-            </h1>
-            <AboutInfoItem title="2021 - now" items={items.experience} />
           </div>
         </div>
       </div>

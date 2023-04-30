@@ -28,8 +28,8 @@ export default function Timeline() {
               </li>
               <li className="content-description__item">
                 Building an e-detailing presentation generator using
-                <strong> Typescript'u, webpack'u, scss</strong>. Creating
-                reusable frontend components based on <strong>OOP</strong>
+                <strong> Typescript, webpack, scss</strong>. Creating reusable
+                frontend components based on <strong>OOP</strong>
               </li>
               <li className="content-description__item">
                 Coding materials for the <strong>Veeva</strong> platform.
