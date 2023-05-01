@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import "../styles/Timeline.css";
 import Decor from "../assets/images/timeline-decor.png";
+import Decor2 from "../assets/images/timeline-decor2.png";
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -72,7 +73,7 @@ export default function Timeline() {
               </li>
               <li className="content-description__item">
                 Building an e-detailing presentation generator using
-                <strong> Typescript, webpack, scss</strong>. Creating reusable
+                <strong> Typescript, Webpack, SCSS</strong>. Creating reusable
                 frontend components based on <strong>OOP</strong>
               </li>
               <li className="content-description__item">
@@ -91,7 +92,7 @@ export default function Timeline() {
         ref={scrollTrigerredItem2Ref}
       >
         <div className="item-timeline__date date">
-          <img className="date__decor" src={Decor} alt="Decor" />
+          <img className="date__decor" src={Decor2} alt="Decor" />
           <div className="date__badge">01.2021 – until now</div>
         </div>
         <div className="item-timeline__content content">
