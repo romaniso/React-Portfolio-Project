@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { CgMenuMotion, CgClose } from "react-icons/cg";
-import CV from "../assets/data/certificates/cv.pdf";
+import CV from "../assets/data/cv.pdf";
 import LogoImg from "../assets/images/logo-light.png";
 
 import "../styles/NavBar.css";

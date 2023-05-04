@@ -1,69 +1,69 @@
-import HTMLbyMosh from "./certificates/the-ultimate-html-course-psd-to-html.pdf";
-import JsPart1byMosh from "./certificates/certificate-of-completion-for-javascript-basics.pdf";
-import JsPart2byMosh from "./certificates/certificate-of-completion-for-object-oriented-programming-in-javascript.pdf";
-import JsSamuraj from "./certificates/UC-1f9b59f0-2759-4f86-9baa-c0e7ec82f161.pdf";
+import BootstrapImg from "../images/stack/bootstrap.svg";
+import FigmaImg from "../images/stack/figma.svg";
+import GitImg from "../images/stack/git.svg";
+import HtmlImg from "../images/stack/html.svg";
+import JsImg from "../images/stack/javascript.svg";
+import NodeImg from "../images/stack/node.svg";
+import PugImg from "../images/stack/pug.svg";
+import ReactImg from "../images/stack/react.svg";
+import SassImg from "../images/stack/sass.svg";
+import CssImg from "../images/stack/css.svg";
+import TailwindImg from "../images/stack/tailwind.svg";
+import TsImg from "../images/stack/typescript.svg";
+import WebpackImg from "../images/stack/webpack.svg";
 
 const items = {
   courses: [
     {
       title: "The Ultimate HTML5 & CSS3 Series by Code with Mosh",
-      download: HTMLbyMosh,
     },
     {
       title:
         "The Ultimate JavaScript Mastery Series - Part 1 by Code with Mosh",
-      download: JsPart1byMosh,
     },
     {
       title:
         "The Ultimate JavaScript Mastery Series - Part 2 by Code with Mosh",
-      download: JsPart2byMosh,
     },
     {
       title: "Mastering React by Code with Mosht",
-      download: JsSamuraj,
     },
     {
       title: "The Ultimate Git Course by Code with Mosh",
-      download: JsSamuraj,
     },
     {
       title: "Programowanie w JavaScript by Samuraj Programowania",
-      download: JsSamuraj,
     },
     {
       title: "React od Podstaw by Samuraj Programowania",
-      download: JsSamuraj,
     },
     {
       title:
         "Programowanie obiektowe w JavaScript - opanuj tworząc gry! by Samuraj Programowania",
-      download: JsSamuraj,
     },
     {
       title:
         "Zaawansowane projekty w CSS i JavaScript by Samuraj Programowania",
-      download: JsSamuraj,
     },
     {
       title: "Wprowadzenie do Git i GitHub by Samuraj Programowania",
-      download: JsSamuraj,
     },
   ],
-  frontEnd: [
-    { title: "HTML/PUG" },
-    { title: "CSS" },
-    { title: "SASS/SCSS" },
-    { title: "Bootstrap" },
-    { title: "Tailwind" },
-    { title: "JavaScript" },
-    { title: "TypeScript" },
-    { title: "React" },
-    { title: "Git" },
-    { title: "Webpack" },
+  stack: [
+    { title: "HTML", img: HtmlImg },
+    { title: "PUG", img: PugImg },
+    { title: "CSS", img: CssImg },
+    { title: "SASS/SCSS", img: SassImg },
+    { title: "Bootstrap", img: BootstrapImg },
+    { title: "Tailwind", img: TailwindImg },
+    { title: "JavaScript", img: JsImg },
+    { title: "TypeScript", img: TsImg },
+    { title: "React", img: ReactImg },
+    { title: "Git", img: GitImg },
+    { title: "Webpack", img: WebpackImg },
+    { title: "Node", img: NodeImg },
+    { title: "Figma", img: FigmaImg },
   ],
-  uiUx: [{ title: "Figma" }, { title: "PhotoShop" }],
-
   highSchool: [
     {
       title:
