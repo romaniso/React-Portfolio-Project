@@ -51,21 +51,18 @@ const items = {
     },
   ],
   frontEnd: [
-    { title: "HTML/PUG", stars: 5 },
-    { title: "CSS", stars: 5 },
-    { title: "SASS/SCSS", stars: 4 },
-    { title: "Bootstrap", stars: 2 },
-    { title: "Tailwind", stars: 2 },
-    { title: "JavaScript", stars: 3 },
-    { title: "TypeScript", stars: 2 },
-    { title: "React", stars: 3 },
-    { title: "Git", stars: 3 },
-    { title: "Webpack", stars: 2 },
+    { title: "HTML/PUG" },
+    { title: "CSS" },
+    { title: "SASS/SCSS" },
+    { title: "Bootstrap" },
+    { title: "Tailwind" },
+    { title: "JavaScript" },
+    { title: "TypeScript" },
+    { title: "React" },
+    { title: "Git" },
+    { title: "Webpack" },
   ],
-  uiUx: [
-    { title: "Figma", stars: 2 },
-    { title: "PhotoShop", stars: 1 },
-  ],
+  uiUx: [{ title: "Figma" }, { title: "PhotoShop" }],
 
   highSchool: [
     {
@@ -76,17 +73,17 @@ const items = {
       title: "Catholic University in Lublin, English Philology, MA",
     },
   ],
-  experience: [
-    {
-      when: "2021 - by now",
-      title: "Freelance Front End Developer",
-    },
-    {
-      title: "Junior Front End Developer",
-      organization: "IPG Health Spark Warsaw",
-      when: "2022 - by now",
-    },
-  ],
+  //  experience: [
+  //    {
+  //      when: "2021 - by now",
+  //      title: "Freelance Front End Developer",
+  //    },
+  //    {
+  //      title: "Junior Front End Developer",
+  //      organization: "IPG Health Spark Warsaw",
+  //      when: "2022 - by now",
+  //    },
+  //  ],
 };
 
 export default items;

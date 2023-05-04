@@ -7,7 +7,6 @@ export default function Button({
   btnText = "Test",
   outline = false,
   download = null,
-  aboutBtn,
   isInNavbar = false,
   active = false,
 }) {
@@ -18,10 +17,10 @@ export default function Button({
           href={download}
           download={download}
           className={
-            aboutBtn
-              ? "button"
-              : outline
+            outline
               ? "button button--outline button--sm"
+              : active
+              ? "button button--active button--sm"
               : isInNavbar
               ? "button button--navbar"
               : "button button--sm"

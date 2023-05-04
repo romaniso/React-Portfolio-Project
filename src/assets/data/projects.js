@@ -1,5 +1,4 @@
 import { v4 as uuidv4 } from "uuid";
-//import CatifyImg from "../images/projects/catify.png";
 import RomanCodeImg from "../images/projects/roman's-code.png";
 import IRIvideoImg from "../images/projects/iri-video.jpg";
 import IRIvideoGif from "../images/projects/iri-zinchenko.gif";
@@ -13,10 +12,8 @@ import MinesweeperGif from "../images/projects/minesweeper.gif";
 import HtmlEmailTemplateImg from "../images/projects/html-email-template.jpg";
 import SugarMadamImg from "../images/projects/sugar-madam.jpg";
 import SugarMadamGif from "../images/projects/sugar-madam.gif";
-// There will be img imports
 
 const projects = [
-  // I may add links to live address and github repos"
   {
     id: uuidv4(),
     name: "Sugar Madam - waxing studio",
