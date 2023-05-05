@@ -5,8 +5,12 @@
 .contactBanner__wrapper {
   margin: 0 auto;
   max-width: 700px;
-  padding: 5rem 0rem;
+  padding: 5rem 2rem;
   text-align: center;
+}
+.contactBanner__wrapper .des__container {
+  display: inline-block;
+  min-height: 60px;
 }
 
 .contactBanner__heading {

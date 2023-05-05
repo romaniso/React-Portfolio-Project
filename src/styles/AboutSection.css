@@ -31,6 +31,8 @@
   margin-top: 5rem;
   margin-left: 0;
   flex: 1 0;
+  display: inline-block;
+  min-height: 70px;
 }
 
 .aboutSection__buttons {
