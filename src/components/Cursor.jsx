@@ -5,12 +5,12 @@ export default function Cursor() {
     <AnimatedCursor
       innerSize={15}
       outerSize={30}
-      color="25, 133, 161"
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={5}
       innerStyle={{
         boxShadow: "0 0 25px 5px rgba(250, 140, 67, 0.272)",
+        backgroundColor: "#77d3f1",
       }}
       outerStyle={{
         backgroundColor: "#fa8c431c",
