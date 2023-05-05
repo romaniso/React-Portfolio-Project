@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 import PText from "../components/PText";
 import Button from "../components/Button";
 import AboutImg from "../assets/images/about-2.jpg";
@@ -25,7 +26,15 @@ export default function About() {
           </div>
           <article className="right">
             <p className="about__subheading">
-              What's up? I am{" "}
+              <Typewriter
+                words={["What's up? I am", "Get to know"]}
+                loop={5}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={30}
+                delaySpeed={1000}
+              />{" "}
               <span className="subheading__span">&lt; Roman /&gt;</span>
             </p>
             <h2 className="about__heading">Frontend Developer</h2>

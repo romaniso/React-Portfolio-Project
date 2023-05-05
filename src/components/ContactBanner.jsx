@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import { Typewriter } from "react-simple-typewriter";
 import Button from "./Button";
 import PText from "./PText";
 import "../styles/ContactBanner.css";
@@ -34,7 +35,20 @@ export default function ContactBanner() {
         className="contactBanner__wrapper card"
         ref={scrollTrigerredContactRef}
       >
-        <PText>Are you looking for a good website?</PText>
+        <PText>
+          <Typewriter
+            words={[
+              "Are you looking for a creative web developer?",
+              "Do you want to have a good-looking website?",
+            ]}
+            loop={5}
+            cursor
+            cursorStyle="|"
+            typeSpeed={50}
+            deleteSpeed={30}
+            delaySpeed={1000}
+          />
+        </PText>
         <h3 className="contactBanner__heading">Let me know</h3>
         <Button btnText="Contact Me" btnLink="/contact" active={true} />
       </div>

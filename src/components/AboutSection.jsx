@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import { Typewriter } from "react-simple-typewriter";
 import Button from "./Button";
 import PText from "./PText";
 import TitleSection from "./TitleSection";
@@ -57,6 +58,7 @@ export default function AboutSection() {
         }
       );
   }, []);
+
   return (
     <div>
       <div className="container">
@@ -72,8 +74,20 @@ export default function AboutSection() {
                 heading="About me"
               />
               <PText>
-                I am a frontend developer who loves creating and learning. Stick
-                around here and I'll show you what&nbsp;I&nbsp;can.
+                <span>
+                  <Typewriter
+                    words={[
+                      "I am a frontend developer who loves creating and learning. Stick around here, and I'll show you what I can create.",
+                      "I am passionate and constatly want to develop myself. So, I always look forward to new challenges!",
+                    ]}
+                    loop={5}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={30}
+                    deleteSpeed={10}
+                    delaySpeed={1000}
+                  />
+                </span>
               </PText>
             </div>
             <div

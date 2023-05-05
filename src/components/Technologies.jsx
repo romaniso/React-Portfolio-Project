@@ -23,7 +23,7 @@ export default function Technologies() {
         scrollTrigger: {
           trigger: section,
           start: "top 50%",
-          end: "bottom 30%",
+          end: "bottom 20%",
           toggleActions: "restart reverse play reverse",
           toggleClass: "scrolled",
         },

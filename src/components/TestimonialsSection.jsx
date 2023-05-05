@@ -45,8 +45,8 @@ export default function TestimonialsSection() {
         ease: "easeInOut",
         scrollTrigger: {
           trigger: ".testimonials__container",
-          start: "center 80%",
-          end: "bottom 50%",
+          start: "center 40%",
+          end: "bottom 0%",
           toggleActions: "restart reverse restart reverse",
           toggleClass: "scrolled",
         },
