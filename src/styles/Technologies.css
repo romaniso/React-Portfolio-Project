@@ -43,6 +43,10 @@
   padding: 1rem;
   z-index: 2;
   transition: all 0.3s ease 0s;
+  backdrop-filter: blur(2px);
+}
+.item-technology:hover {
+  transform: scale(1.2);
 }
 .item-technology:hover .item-technology__heading {
   padding: 1.3rem;
@@ -60,6 +64,10 @@
   }
   .item-technology {
     flex: 0 1 12%;
+  }
+  .item-technology:hover .item-technology__heading {
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 768px) {

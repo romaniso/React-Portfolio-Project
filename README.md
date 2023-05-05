@@ -87,6 +87,8 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [ ] maybe add a cartoonish burger icon
 - [x] add a preloader
 - [ ] add an onhover popup for main project image which follows a mouse
-- [ ] add animated cursor
+- [x] add an animated cursor
 - [ ] add typewriter effect
 - [ ] add framer motion scroll
+- [ ] restyle projects page
+- [ ] restyle contact page

@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./pages/NotFound";
+import Cursor from "./components/Cursor";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,6 +22,7 @@ function App() {
   return (
     !loading && (
       <>
+        <Cursor />
         <Router>
           <NavBar />
           <ScrollToTop />
