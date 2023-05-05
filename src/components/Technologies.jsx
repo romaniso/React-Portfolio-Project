@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Technologies() {
   const { stack } = technologies;
-  console.log(stack);
   const scrollTrigerredSectionRef = useRef(null);
   useEffect(() => {
     const section = scrollTrigerredSectionRef.current;
@@ -38,7 +37,7 @@ export default function Technologies() {
       <div className="technologies__wrapper">
         {stack.map((item, index) => {
           return (
-            <div className="technologies__item item-technology">
+            <div className="technologies__item item-technology" key={index}>
               <article className="item-technology__content">
                 <div className="item-technology__heading">{item.title}</div>
                 <img
