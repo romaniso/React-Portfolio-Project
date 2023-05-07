@@ -22,7 +22,7 @@ export default function Project({
     if (flippedCard) {
       setTimeout(() => {
         setFlippedCard(!flippedCard);
-      }, 1500);
+      }, 500);
     } else {
       return;
     }
@@ -32,7 +32,7 @@ export default function Project({
     <div className="project__container">
       <article
         className={flippedCard ? "project flipped" : "project"}
-        onMouseLeave={onHandleMouseLeave}
+        onMouseOut={onHandleMouseLeave}
         onTouchEnd={onHandleMouseLeave}
       >
         <section className="project__front">
