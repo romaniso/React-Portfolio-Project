@@ -20,7 +20,9 @@ export default function Project({
   };
   const onHandleMouseLeave = () => {
     if (flippedCard) {
-      setFlippedCard(!flippedCard);
+      setTimeout(() => {
+        setFlippedCard(!flippedCard);
+      }, 1500);
     } else {
       return;
     }
@@ -31,6 +33,7 @@ export default function Project({
       <article
         className={flippedCard ? "project flipped" : "project"}
         onMouseLeave={onHandleMouseLeave}
+        onTouchEnd={onHandleMouseLeave}
       >
         <section className="project__front">
           <img src={img} alt="" />
