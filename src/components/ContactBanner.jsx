@@ -41,7 +41,7 @@ export default function ContactBanner() {
               "Are you looking for a creative web developer?",
               "Do you want to have a good-looking website?",
             ]}
-            loop={5}
+            loop={0}
             cursor
             cursorStyle="|"
             typeSpeed={50}

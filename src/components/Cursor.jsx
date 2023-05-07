@@ -27,6 +27,7 @@ export default function Cursor() {
         "textarea",
         "button",
         ".link",
+        "#card-flipper",
       ]}
     />
   );

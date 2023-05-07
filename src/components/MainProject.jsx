@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import Portfolio from "../assets/images/projects/roman's-code.png";
+import Portfolio from "../assets/images/projects/portfolio-img.jpg";
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

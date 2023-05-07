@@ -80,7 +80,7 @@ export default function AboutSection() {
                       "I am a frontend developer who loves creating and learning. Stick around here, and I'll show you what I can create.",
                       "I am passionate and constatly want to develop myself. So, I always look forward to new challenges!",
                     ]}
-                    loop={5}
+                    loop={0}
                     cursor
                     cursorStyle="|"
                     typeSpeed={30}

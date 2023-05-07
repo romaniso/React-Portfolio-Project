@@ -28,7 +28,7 @@ export default function About() {
             <p className="about__subheading">
               <Typewriter
                 words={["What's up? I am", "Get to know"]}
-                loop={5}
+                loop={0}
                 cursor
                 cursorStyle="|"
                 typeSpeed={70}

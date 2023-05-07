@@ -90,5 +90,5 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [x] add an animated cursor
 - [x] add typewriter effect
 - [ ] add framer motion scroll
-- [ ] restyle projects page
+- [x] restyle projects page
 - [ ] restyle contact page

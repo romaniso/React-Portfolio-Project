@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from "react";
 import TitleSection from "./TitleSection";
 import projects from "../assets/data/projects";
 import MainProject from "./MainProject";
-import "../styles/ProjectsSection.css";
 import "../styles/MainProject.css";
 
 import "swiper/css";
