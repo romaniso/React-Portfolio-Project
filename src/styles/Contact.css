@@ -1,5 +1,9 @@
 .contact__wrapper {
   padding: 10rem 0;
+  transition: opacity 2s ease 0s;
+}
+.contact__wrapper--unloaded {
+  opacity: 0;
 }
 
 .contactSection__wrapper {

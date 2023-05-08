@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import HeroImg from "../assets/images/hero-black-white-img.svg";
 import Button from "./Button";
 import PText from "./PText";
@@ -7,9 +7,20 @@ import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "../styles/HeroSection.css";
 
 export default function HeroSection() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
   return (
     <div className="hero">
-      <div className="container hero__container">
+      <div
+        className={
+          loaded
+            ? "container hero__container"
+            : "container hero__container--unloaded"
+        }
+      >
         <h1 className="hero__heading">
           <span>Hello there!</span>
           <span className="hero__name">I'm Roman</span>

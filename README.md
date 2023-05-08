@@ -2,7 +2,7 @@
 
 **[Roman's Code](https://romanscode.com/)** is a React based portfolio of a front web developer **_Roman Isopenko_**. You can browse my projects here as well as check out some info about my background. This webpage can provide you the information about my front end dev skills. The project is developed by creating several React components, mainly functional, using several React hooks such as useState for transfering info from a component to other components. For styling, I used plain CSS, but for future updates, styled components external library is going to be used.
 
-![This is my portfolio!](/src/assets/images/projects/roman's-code.png)
+![This is my portfolio!](/src/assets/images/projects/portfolio-img.jpg)
 
 > Action is the foundational key to all success.
 > **Picasso**

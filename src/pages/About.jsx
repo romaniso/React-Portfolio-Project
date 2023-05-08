@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import PText from "../components/PText";
 import Button from "../components/Button";
@@ -12,9 +12,16 @@ import TitleSection from "../components/TitleSection";
 import Technologies from "../components/Technologies";
 
 export default function About() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
   return (
     <div className="about__wrapper">
-      <main className=" about container ">
+      <main
+        className={loaded ? "about container" : "about--unloaded container "}
+      >
         <TitleSection
           className="title"
           subheading="Let's get to know"

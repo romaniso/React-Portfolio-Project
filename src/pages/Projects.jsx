@@ -2,11 +2,24 @@ import TitleSection from "../components/TitleSection";
 import projects from "../assets/data/projects";
 import "../styles/Projects.css";
 import Project from "../components/Project";
+import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Projects() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
   return (
     <div className="projects__wrapper">
-      <div className="projects__container container">
+      <div
+        className={
+          loaded
+            ? "projects__container container"
+            : "projects__container--unloaded container"
+        }
+      >
         <TitleSection
           heading="Projects"
           subheading=" Check out my recent works"
