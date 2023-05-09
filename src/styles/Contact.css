@@ -1,5 +1,5 @@
 .contact__wrapper {
-  padding: 10rem 0;
+  padding: 10rem 0 0;
   transition: opacity 2s ease 0s;
 }
 .contact__wrapper--unloaded {
@@ -8,7 +8,7 @@
 
 .contactSection__wrapper {
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
   display: flex;
   gap: 5rem;
   justify-content: space-between;
@@ -16,27 +16,33 @@
 }
 
 .contactInfoItem__wrapper {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
+  text-shadow: var(--highlight-text-shadow);
+  background-color: rgba(7, 7, 7, 0.4);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .contactInfoItem__wrapper .icon {
-  color: var(--white);
-  background-color: var(--gray-2);
-  padding: 1.3rem;
+  padding: 1.2rem;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+}
+.contactInfoItem__wrapper .info p {
+  color: var(--highlight-color);
 }
 
 .contactInfoItem__wrapper .icon svg {
   width: 3.5rem;
+  text-shadow: var(--highlight-text-shadow);
 }
-
+.contactInfoItem__wrapper .icon path {
+  color: var(--highlight-color);
+}
 .form__wrapper .form {
   width: 100%;
 }
@@ -47,6 +53,8 @@
 }
 
 .form-group label {
+  color: var(--highlight-color);
+  text-shadow: var(--highlight-text-shadow);
   font-size: 1.8rem;
 }
 
@@ -56,15 +64,18 @@
   font-size: 2rem;
   padding: 1.2rem;
   color: var(--highlight-color);
+  text-shadow: var(--highlight-text-shadow);
   border: none;
   transition: 0.5s;
   outline: none;
   margin-top: 1rem;
+  background-color: rgba(7, 7, 7, 0.4);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  background-color: var(--black);
+  background-color: var(--deep-dark);
   box-shadow: 0px 0px 3px 3px rgba(15, 118, 179, 0.199);
 }
 
@@ -74,8 +85,8 @@
 }
 
 .form__button[type="submit"] {
-  font-size: 2rem;
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 .form__result {
@@ -109,7 +120,7 @@
   }
 
   .contactSection__wrapper .right {
-    padding: 4rem 2rem 2rem 2rem;
+    /*padding: 0 0 2rem;*/
   }
 }
 

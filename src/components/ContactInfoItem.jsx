@@ -7,7 +7,7 @@ export default function ContactInfoItem({
   text = "this is an info",
 }) {
   return (
-    <div className="contactInfoItem__wrapper card">
+    <div className="contactInfoItem__wrapper">
       <div className="icon">{icon}</div>
       <div className="info">
         <PText>{text}</PText>

@@ -42,30 +42,18 @@ const ContactForm = () => {
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div className="form-group">
           <label htmlFor="user_name">Name</label>
-          <input
-            type="text"
-            name="user_name"
-            className="card"
-            id="user_name"
-            required
-          />
+          <input type="text" name="user_name" id="user_name" required />
         </div>
         <div className="form-group">
           <label htmlFor="user_email">Email</label>
-          <input
-            type="email"
-            name="user_email"
-            className="card"
-            id="user_email"
-            required
-          />
+          <input type="email" name="user_email" id="user_email" required />
         </div>
         <div className="form-group">
           <label htmlFor="user_message">Message</label>
-          <textarea name="message" className="card" id="message" required />
+          <textarea name="message" id="message" required />
         </div>
         <input
-          className="form__button button"
+          className="form__button button button--active"
           type="submit"
           value="Send me a message"
         />
