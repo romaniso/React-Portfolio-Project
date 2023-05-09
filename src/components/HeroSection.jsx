@@ -3,7 +3,6 @@ import HeroImg from "../assets/images/hero-black-white-img.svg";
 import Button from "./Button";
 import PText from "./PText";
 import { IoIosArrowDown } from "react-icons/io";
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "../styles/HeroSection.css";
 import FixedSocials from "./FixedSocials";
 
