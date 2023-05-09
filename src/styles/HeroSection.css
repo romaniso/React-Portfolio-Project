@@ -88,30 +88,11 @@
 .hero__info .button {
   margin-top: 2rem;
 }
-.hero__socials,
 .hero__scrollDown {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 50px;
-}
-
-.hero__socials {
-  position: fixed;
-  left: 50px;
-  bottom: 70px;
-  z-index: 1;
-}
-
-.hero__socials::after {
-  content: "";
-  position: absolute;
-  top: 93%;
-  left: 46%;
-  width: 2px;
-  height: 100%;
-  opacity: 0.5;
-  background-color: var(--white);
 }
 
 .hero__scrollDown {
@@ -120,21 +101,16 @@
   bottom: 20px;
 }
 
-.hero__socials-indicator,
 .hero__scrollDown {
   width: 50px;
 }
 
 @media only screen and (max-width: 1340px) {
-  .hero__socials {
-    left: 0px;
-  }
   .hero__scrollDown {
     right: 0px;
   }
 }
 
-.hero__socials p,
 .hero__scrollDown p {
   font-size: 1.6rem;
   transform: translateY(-70px) rotate(90deg);
@@ -142,38 +118,15 @@
   text-transform: uppercase;
 }
 
-.hero__socials-indicator svg,
 .hero__scrollDown svg {
   max-height: 45px;
   width: 20px;
   margin: 0 auto;
   object-fit: contain;
 }
-.hero__scrollDown svg,
-.hero__socials-indicator svg {
+.hero__scrollDown svg {
   transition: 1s;
   animation: jump 1s linear infinite alternate;
-}
-
-.hero__socials-text li {
-  margin-bottom: 1rem;
-}
-.hero__socials-text a {
-  display: inline-block;
-  font-size: 2.2rem;
-}
-
-/* .hero__socials-text svg:hover, .hero__scrollDown svg:hover {
-  transition: .5s;
-  width: 2.5rem;
-} */
-
-.hero__socials-text path {
-  transition: 0.5s;
-}
-
-.hero__socials-text li:hover path {
-  color: var(--highlight-color);
 }
 
 @media only screen and (max-width: 768px) {
@@ -198,27 +151,11 @@
   .hero__info {
     margin-top: 3rem;
   }
-
-  .hero__socials {
-    left: 0px;
-    bottom: 10%;
-    width: 20px;
-  }
-
-  .hero__socials-indicator {
-    width: 20px;
-  }
-  .hero__socials-indicator p,
   .hero__scrollDown p {
     font-size: 1.2rem;
   }
-  .hero__socials-indicator svg,
   .hero__scrollDown svg {
     max-height: 22px;
-  }
-  .hero__socials-text li {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
   }
   .hero__scrollDown {
     right: 0;

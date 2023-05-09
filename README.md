@@ -82,7 +82,7 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [x] restyle expertise section
 - [x] restyle projects cards
 - [x] replace map image with google maps
-- [ ] RESTYLE
+- [x] RESTYLE
 - [ ] maybe try to animate character's eyes on mouse move
 - [ ] maybe add a cartoonish burger icon
 - [x] add a preloader
@@ -91,4 +91,4 @@ or look into the code here on GitHub - **<https://github.com/romaniso/React-Port
 - [x] add typewriter effect
 - [ ] add framer motion scroll
 - [x] restyle projects page
-- [ ] restyle contact page
+- [x] restyle contact page
