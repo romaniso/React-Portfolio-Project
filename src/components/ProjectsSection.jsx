@@ -54,6 +54,7 @@ export default function ProjectsSection() {
                 technologies={project.technologies}
                 index={index}
                 type={project.type}
+                inProgress={project.inProgress}
               />
             );
           })}

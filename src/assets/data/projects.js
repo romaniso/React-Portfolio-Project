@@ -9,6 +9,7 @@ import HangmanImg from "../images/projects/hangman-thumbnail.jpg";
 import MinesweeperImg from "../images/projects/minesweeper-thumbnail.jpg";
 import HtmlEmailTemplateImg from "../images/projects/html-email-template.jpg";
 import SugarMadamImg from "../images/projects/sugar-madam.jpg";
+import EasyPeasyImg from "../images/projects/easy-peasy.jpg";
 
 //gifs
 import RomanCodeGif from "../images/projects/portfolio.gif";
@@ -19,6 +20,28 @@ import MinesweeperGif from "../images/projects/minesweeper.gif";
 import SugarMadamGif from "../images/projects/sugar-madam.gif";
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: "Easy-Peasy - e-learning platform",
+    des: "Full-stack E-learning platfrom devoted to learning English. Based on MERN stack.",
+    img: EasyPeasyImg,
+    gif: EasyPeasyImg,
+    links: {
+      //live: "https://www.sugar-madam.pl/",
+      gitHub: "https://github.com/romaniso/easy-peasy-platform",
+    },
+    technologies: [
+      "React",
+      "Redux",
+      "Tailwind",
+      "Firebase",
+      "Node.js",
+      "Express",
+      "MongoDB",
+    ],
+    type: "Full-stack web app",
+    inProgress: true,
+  },
   {
     id: uuidv4(),
     name: "Sugar Madam - waxing studio",

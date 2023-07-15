@@ -13,6 +13,7 @@ export default function MainProject({
   des = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,mollitia facilis sit nesciunt veritatis adipisci similique numquamnemo error possimus optio atque sequi voluptas quod recusandae ullamiusto illo debitis!",
   links,
   technologies = ["React", "SCSS", "GSAP", "Tailwind", "Next.js"],
+  inProgress,
 }) {
   const scrollTrigerredElRef = useRef(null);
   useEffect(() => {
@@ -45,6 +46,11 @@ export default function MainProject({
         className="main-project__img"
       >
         <img src={gif} alt="project" />
+        {inProgress && (
+          <div className="main-project__progress">
+            <p>In progress</p>
+          </div>
+        )}
       </a>
       <article className="main-project__content">
         <header className="main-project__heading">
@@ -54,14 +60,17 @@ export default function MainProject({
         <main className="main-project__info">
           <p className="main-project__des">{des}</p>
           <section className="main-project__links">
-            <a
-              className="main-project__btn"
-              href={links.live}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open live
-            </a>
+            {links.live && (
+              <a
+                className="main-project__btn"
+                href={links.live}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open live
+              </a>
+            )}
+
             <a
               className="main-project__btn"
               href={links.gitHub}
