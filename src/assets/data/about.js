@@ -4,6 +4,9 @@ import GitImg from "../images/stack/git.svg";
 import HtmlImg from "../images/stack/html.svg";
 import JsImg from "../images/stack/javascript.svg";
 import NodeImg from "../images/stack/node.svg";
+import ExpressImg from "../images/stack/express.png";
+import SqlImg from "../images/stack/sql.png";
+import CppImg from "../images/stack/cpp.png";
 import PugImg from "../images/stack/pug.svg";
 import ReactImg from "../images/stack/react.svg";
 import SassImg from "../images/stack/sass.svg";
@@ -62,6 +65,9 @@ const items = {
     { title: "Git", img: GitImg },
     { title: "Webpack", img: WebpackImg },
     { title: "Node", img: NodeImg },
+    { title: "Express", img: ExpressImg },
+    { title: "SQL", img: SqlImg },
+    { title: "C++", img: CppImg },
     { title: "Figma", img: FigmaImg },
   ],
   highSchool: [
