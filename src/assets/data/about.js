@@ -6,6 +6,7 @@ import JsImg from "../images/stack/javascript.svg";
 import NodeImg from "../images/stack/node.svg";
 import ExpressImg from "../images/stack/express.png";
 import SqlImg from "../images/stack/sql.png";
+import MongoDBImg from "../images/stack/mongodb.png";
 import CppImg from "../images/stack/cpp.png";
 import PugImg from "../images/stack/pug.svg";
 import ReactImg from "../images/stack/react.svg";
@@ -67,6 +68,7 @@ const items = {
     { title: "Node", img: NodeImg },
     { title: "Express", img: ExpressImg },
     { title: "SQL", img: SqlImg },
+    { title: "MongoDB", img: MongoDBImg },
     { title: "C++", img: CppImg },
     { title: "Figma", img: FigmaImg },
   ],
