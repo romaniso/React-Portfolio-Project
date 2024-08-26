@@ -18,29 +18,29 @@ import FormGif from "../images/projects/payment-form.gif";
 import HangmanGif from "../images/projects/hangman.gif";
 import MinesweeperGif from "../images/projects/minesweeper.gif";
 import SugarMadamGif from "../images/projects/sugar-madam.gif";
+import EasyPeasyGif from "../images/projects/easypeasy.gif";
 
 const projects = [
   {
     id: uuidv4(),
     name: "Easy-Peasy - e-learning platform",
-    des: "Full-stack E-learning platfrom devoted to learning English. Based on MERN stack.",
+    des: "Full-stack E-learning platfrom devoted to learning English. Based on MERN stack. An English learning platform with interactive tasks, user's dashboard, and vocabulary storage. Covers grammar, vocabulary, listening, and reading. Offers educational articles on various English topics.",
     img: EasyPeasyImg,
-    gif: EasyPeasyImg,
+    gif: EasyPeasyGif,
     links: {
-      //live: "https://www.sugar-madam.pl/",
+      live: "https://easypeasy-lang.com",
       gitHub: "https://github.com/romaniso/easy-peasy-platform",
     },
     technologies: [
       "React",
-      "Redux",
       "Tailwind",
-      "Firebase",
-      "Node.js",
       "Express",
       "MongoDB",
+      "TypeScript",
+      "AWS",
+      "Jest",
     ],
     type: "Full-stack web app",
-    inProgress: true,
   },
   {
     id: uuidv4(),
