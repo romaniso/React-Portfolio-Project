@@ -30,7 +30,7 @@ export default function HeroSection() {
         </div>
         <div className="hero__info">
           <PText>
-            I am a frontend developer who loves creating and learning. Stick
+            I am a fullstack developer who loves creating and learning. Stick
             around here and I'll show you what&nbsp;I&nbsp;can.
           </PText>
           <Button btnLink="/projects" btnText="Check out my works" />

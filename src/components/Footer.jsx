@@ -16,8 +16,8 @@ export default function Footer() {
             Roman's Code{" "}
           </h1>
           <PText>
-            A passionate beginner front end developer from Lublin, Poland. Web
-            Dev is my hobby that allows me to use my creativity and imagination.
+            A passionate fullstack developer from Zielona Góra, Poland. Web Dev
+            is my hobby that allows me to use my creativity and imagination.
           </PText>
         </div>
         <div className="footer__col2">
